@@ -593,6 +593,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+<!-- ── GALLERY ── -->
+<section id="gallery">
+  <div class="gallery-inner">
+    <h2 class="gallery-heading fade-in">Einblicke in Der Bircher</h2>
+    <div class="gallery-filters">
+      <button class="gal-filter-btn active" data-filter="all">Alle</button>
+      <button class="gal-filter-btn" data-filter="ferienwohnungen">Ferienwohnungen</button>
+      <button class="gal-filter-btn" data-filter="aussenbereich">Außenbereich</button>
+      <button class="gal-filter-btn" data-filter="sonstige">Sonstige</button>
+    </div>
+    <div class="gallery-grid">
+      <!-- Ferienwohnungen -->
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Wohnraum mit Küche – Appartement 105" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/103DuscheimZimmer-o8yDczzHjvCqr8myuAW0bA.jpg" alt="Dusche im Zimmer – Appartement 103" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Lodge Appartement 211" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Badezimmer Appartement 211" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/213Bad-NSHfFhTGhFSrrWO7wvw7jA.jpg" alt="Badezimmer Appartement 213" loading="lazy" />
+      </div>
+      <!-- Außenbereich -->
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/DSC01307-zMsguLoRoAHLOGPILoYaJw.jfif" alt="Außenansicht Der Bircher Freienfeld" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/DSC09449-cOXHuMwiNzLelPeTNFsYLw.jfif" alt="Panorama Wipptal" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Garten Guesthouse Der Bircher" loading="lazy" />
+      </div>
+      <!-- Sonstige -->
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg" alt="Ausblick Wipptal Freienfeld" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/DSC09992-wo_7N_LVIpAUFk54XMK64g.jfif" alt="Landschaft Wipptal Sterzing" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/IMG_0468-ov2pYe9c-iaefDOH_x4otQ.jpg" alt="Freienfeld Südtirol" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ── FORM ── -->
 <section id="anfrage">
   <div class="form-section-inner fade-in">
@@ -657,9 +708,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <label>Telefon <span class="req">*</span></label>
           <div class="phone-row">
             <select id="phonePrefix">
-              <option value="0039" selected>🇮🇹 +39</option>
+              <option value="0039">🇮🇹 +39</option>
               <option value="0043">🇦🇹 +43</option>
-              <option value="0049">🇩🇪 +49</option>
+              <option value="0049" selected>🇩🇪 +49</option>
               <option value="0041">🇨🇭 +41</option>
               <option value="0031">🇳🇱 +31</option>
               <option value="0032">🇧🇪 +32</option>
@@ -672,7 +723,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <option value="00420">🇨🇿 +420</option>
               <option value="001">🇺🇸 +1</option>
             </select>
-            <input type="tel" id="phoneNumber" placeholder="331 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
+            <input type="tel" id="phoneNumber" placeholder="151 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
           </div>
           <div class="field-error" id="errTelefon">Bitte Telefonnummer eingeben.</div>
         </div>
@@ -688,57 +739,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="success-msg" id="successMsg">&#10003; Vielen Dank! Ihre Anfrage wurde erfolgreich gesendet. Wir melden uns so schnell wie möglich bei Ihnen.</div>
         <button type="submit" class="submit-btn" id="sBtn">Unverbindliche Anfrage senden</button>
       </form>
-    </div>
-  </div>
-</section>
-
-<!-- ── GALLERY ── -->
-<section id="gallery">
-  <div class="gallery-inner">
-    <h2 class="gallery-heading fade-in">Einblicke in Der Bircher</h2>
-    <div class="gallery-filters">
-      <button class="gal-filter-btn active" data-filter="all">Alle</button>
-      <button class="gal-filter-btn" data-filter="ferienwohnungen">Ferienwohnungen</button>
-      <button class="gal-filter-btn" data-filter="aussenbereich">Außenbereich</button>
-      <button class="gal-filter-btn" data-filter="sonstige">Sonstige</button>
-    </div>
-    <div class="gallery-grid">
-      <!-- Ferienwohnungen -->
-      <div class="gal-item" data-cat="ferienwohnungen">
-        <img src="../asstes/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Wohnraum mit Küche – Appartement 105" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="ferienwohnungen">
-        <img src="../asstes/103DuscheimZimmer-o8yDczzHjvCqr8myuAW0bA.jpg" alt="Dusche im Zimmer – Appartement 103" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="ferienwohnungen">
-        <img src="../asstes/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Lodge Appartement 211" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="ferienwohnungen">
-        <img src="../asstes/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Badezimmer Appartement 211" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="ferienwohnungen">
-        <img src="../asstes/213Bad-NSHfFhTGhFSrrWO7wvw7jA.jpg" alt="Badezimmer Appartement 213" loading="lazy" />
-      </div>
-      <!-- Außenbereich -->
-      <div class="gal-item" data-cat="aussenbereich">
-        <img src="../asstes/DSC01307-zMsguLoRoAHLOGPILoYaJw.jfif" alt="Außenansicht Der Bircher Freienfeld" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="aussenbereich">
-        <img src="../asstes/DSC09449-cOXHuMwiNzLelPeTNFsYLw.jfif" alt="Panorama Wipptal" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="aussenbereich">
-        <img src="../asstes/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Garten Guesthouse Der Bircher" loading="lazy" />
-      </div>
-      <!-- Sonstige -->
-      <div class="gal-item" data-cat="sonstige">
-        <img src="../asstes/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg" alt="Ausblick Wipptal Freienfeld" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="sonstige">
-        <img src="../asstes/DSC09992-wo_7N_LVIpAUFk54XMK64g.jfif" alt="Landschaft Wipptal Sterzing" loading="lazy" />
-      </div>
-      <div class="gal-item" data-cat="sonstige">
-        <img src="../asstes/IMG_0468-ov2pYe9c-iaefDOH_x4otQ.jpg" alt="Freienfeld Südtirol" loading="lazy" />
-      </div>
     </div>
   </div>
 </section>
