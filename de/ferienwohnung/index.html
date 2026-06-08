@@ -1,1 +1,1174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BJVQ69F');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>Ferienwohnung Sterzing – Historic Guesthouse Der Bircher | Unterkunft Freienfeld Wipptal</title>
+  <meta name="description" content="Ferienwohnung in Sterzing & Freienfeld – Historic Guesthouse Der Bircher im Wipptal Südtirol. Moderne Appartements 45–70 m², hundefreundlich, SterzingCard inklusive. Unterkunft Sterzing ab 3 Nächten – jetzt anfragen!" />
+  <meta name="keywords" content="Ferienwohnung Sterzing, Unterkunft Sterzing, Appartement Sterzing, Ferienwohnung Wipptal, Apartment Freienfeld, Urlaub mit Hund Südtirol, Unterkunft Freienfeld, Ferienwohnung Südtirol, Guesthouse Sterzing, Fewo Sterzing, Hotel Freienfeld Alternative" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta property="og:title" content="Ferienwohnung Sterzing – Historic Guesthouse Der Bircher" />
+  <meta property="og:description" content="Ihr Appartement in Freienfeld bei Sterzing im Wipptal. Hundefreundlich, SterzingCard inklusive, Frühstück im moidls lokäischn. Jetzt anfragen!" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/de.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:       #F5F0E8;
+      --cream-dark:  #EBE3D5;
+      --stone:       #B89A6A;
+      --stone-dark:  #9A7D50;
+      --forest:      #2A3828;
+      --forest-mid:  #3A4F38;
+      --charcoal:    #1C2120;
+      --warm-gray:   #756D62;
+      --white:       #FFFFFF;
+      --font-serif:  'Cormorant Garamond', Georgia, serif;
+      --font-sans:   'Jost', system-ui, sans-serif;
+      --header-h:    72px;
+      --pad:         90px;
+      --max-w:       1180px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-sans); color: var(--charcoal); background: var(--cream); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    img  { display: block; max-width: 100%; }
+    a    { color: inherit; text-decoration: none; }
+    .container { max-width: var(--max-w); margin-inline: auto; padding-inline: 24px; }
+
+    /* Animations */
+    .fade-up { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* Buttons */
+    .btn-primary { display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: var(--stone); color: var(--white); font-family: var(--font-sans); font-size: 0.80rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.25s, transform 0.2s; }
+    .btn-primary:hover { background: var(--stone-dark); transform: translateY(-2px); }
+    .btn-outline { display: inline-flex; align-items: center; gap: 10px; padding: 13px 32px; background: transparent; color: var(--white); font-family: var(--font-sans); font-size: 0.80rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.55); cursor: pointer; transition: border-color 0.25s, background 0.25s; }
+    .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
+
+    /* Section helpers */
+    .section-label { font-size: 0.64rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--stone); margin-bottom: 14px; display: block; }
+    .section-h2    { font-family: var(--font-serif); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 300; line-height: 1.22; color: var(--forest); margin-bottom: 18px; }
+    .section-text  { font-size: 0.90rem; color: var(--warm-gray); line-height: 1.8; }
+    .section-header { text-align: center; max-width: 640px; margin-inline: auto; margin-bottom: 56px; }
+
+    /* ── HEADER ── */
+    #site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; height: var(--header-h); display: flex; align-items: center; background: rgba(255,255,255,0); transition: background 0.4s, box-shadow 0.4s; }
+    #site-header.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(8px); box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
+    .header-inner { max-width: var(--max-w); width: 100%; margin-inline: auto; padding-inline: 24px; display: flex; align-items: center; justify-content: space-between; }
+    .header-logo { display: flex; align-items: center; gap: 10px; }
+    .logo-img { height: 44px; width: auto; display: block; object-fit: contain; transition: filter 0.4s; }
+    #site-header.scrolled .logo-img { filter: brightness(0); }
+    .header-nav { display: flex; align-items: center; gap: 28px; }
+    .header-tel { font-size: 0.82rem; font-weight: 400; letter-spacing: 0.04em; color: rgba(255,255,255,0.9); transition: color 0.4s; }
+    #site-header.scrolled .header-tel { color: var(--warm-gray); }
+    .btn-avail { display: inline-flex; align-items: center; gap: 8px; padding: 11px 24px; background: var(--stone); color: var(--white); font-family: var(--font-sans); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.25s, transform 0.2s; }
+    .btn-avail:hover { background: var(--stone-dark); transform: translateY(-1px); }
+    .btn-avail svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.5; flex-shrink: 0; }
+
+    /* ── HERO ── */
+    #hero { position: relative; height: 100vh; min-height: 600px; max-height: 960px; overflow: hidden; display: flex; align-items: flex-end; }
+    .hero-bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(20,28,22,0.10) 0%, rgba(20,28,22,0.25) 40%, rgba(20,28,22,0.75) 100%); }
+    .hero-content { position: relative; z-index: 2; width: 100%; max-width: var(--max-w); margin-inline: auto; padding: 0 24px 72px; }
+    .hero-badge { display: inline-block; font-size: 0.68rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--stone); border: 1px solid var(--stone); padding: 5px 14px; margin-bottom: 20px; }
+    .hero-h1 { font-family: var(--font-serif); font-size: clamp(2.4rem, 5.5vw, 4.6rem); font-weight: 300; line-height: 1.1; color: var(--white); max-width: 760px; margin-bottom: 20px; }
+    .hero-kw { display: block; font-family: var(--font-sans); font-size: 0.90rem; font-weight: 300; letter-spacing: 0.04em; color: rgba(255,255,255,0.78); max-width: 600px; margin-bottom: 36px; }
+    .hero-cta-wrap { display: flex; gap: 14px; flex-wrap: wrap; }
+    .hero-scroll { position: absolute; bottom: 28px; right: 40px; display: flex; flex-direction: column; align-items: center; gap: 8px; color: rgba(255,255,255,0.55); font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; z-index: 2; }
+    .hero-scroll-line { width: 1px; height: 48px; background: linear-gradient(to bottom, rgba(255,255,255,0.6), transparent); animation: scrollLine 2s ease-in-out infinite; }
+    @keyframes scrollLine { 0%,100%{transform:scaleY(1);opacity:1}50%{transform:scaleY(0.5);opacity:0.4} }
+
+    /* ── INTRO ── */
+    #intro { background: var(--white); padding: var(--pad) 24px; }
+    .intro-inner { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .intro-h2 { font-family: var(--font-serif); font-size: clamp(1.9rem, 3.5vw, 2.9rem); font-weight: 300; line-height: 1.2; color: var(--forest); margin-bottom: 28px; }
+    .intro-text { font-size: 0.92rem; color: var(--warm-gray); line-height: 1.85; margin-bottom: 16px; }
+    .intro-meta { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 36px; padding-top: 36px; border-top: 1px solid var(--cream-dark); }
+    .meta-num   { font-family: var(--font-serif); font-size: 2.2rem; font-weight: 300; color: var(--stone); line-height: 1; display: block; }
+    .meta-label { font-size: 0.70rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: var(--warm-gray); }
+    .intro-image-main { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+    .intro-image-wrap { position: relative; }
+    .intro-image-badge { position: absolute; bottom: -24px; left: -24px; background: var(--forest); color: var(--white); padding: 18px 22px; max-width: 230px; }
+    .badge-icon-svg { width: 28px; height: 28px; margin-bottom: 6px; fill: var(--stone); }
+    .badge-text { font-size: 0.72rem; font-weight: 300; letter-spacing: 0.1em; line-height: 1.5; }
+
+    /* ── USP ROW ── */
+    #usps { background: var(--cream); padding: 52px 24px; }
+    .usps-inner { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+    .usp-item { background: var(--white); padding: 28px 24px; display: flex; flex-direction: column; gap: 12px; border-bottom: 3px solid transparent; transition: border-color 0.3s; }
+    .usp-item:hover { border-color: var(--stone); }
+    .usp-icon path, .usp-icon rect, .usp-icon circle, .usp-icon polyline, .usp-icon line { stroke: var(--stone); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    .usp-icon { width: 32px; height: 32px; flex-shrink: 0; }
+    .usp-name { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 400; color: var(--forest); }
+    .usp-desc { font-size: 0.82rem; color: var(--warm-gray); line-height: 1.65; }
+
+    /* ── INKLUSIVLEISTUNGEN ── */
+    #inklusive { background: var(--white); padding: var(--pad) 24px; }
+    .inklusive-grid { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 56px; }
+    .inkl-card { background: var(--cream); padding: 36px 32px; }
+    .inkl-card-title { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 400; color: var(--forest); margin-bottom: 20px; padding-bottom: 14px; border-bottom: 2px solid var(--stone); }
+    .inkl-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .inkl-list li { font-size: 0.87rem; color: var(--warm-gray); line-height: 1.6; display: flex; gap: 10px; align-items: flex-start; }
+    .inkl-list li::before { content: ""; width: 6px; height: 6px; min-width: 6px; border-radius: 50%; background: var(--stone); margin-top: 8px; }
+    .inkl-note { font-size: 0.80rem; font-style: italic; color: var(--stone-dark); margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--cream-dark); }
+    .info-strip { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .info-strip-item { background: var(--forest); padding: 28px 26px; color: var(--white); }
+    .info-strip-title { font-family: var(--font-serif); font-size: 1rem; font-weight: 400; color: var(--stone); margin-bottom: 12px; }
+    .info-strip-text { font-size: 0.82rem; font-weight: 300; color: rgba(255,255,255,0.72); line-height: 1.75; }
+    @media (max-width: 1024px) { .inklusive-grid { grid-template-columns: 1fr; gap: 24px; } .info-strip { grid-template-columns: 1fr; } }
+
+    /* ── FEATURE ACCORDION ── */
+    #highlights { background: var(--cream-dark); padding: var(--pad) 24px; }
+    .accordion-grid { display: grid; grid-template-columns: repeat(3, 1fr); max-width: var(--max-w); margin-inline: auto; overflow: hidden; }
+    .acc-tile { position: relative; overflow: hidden; cursor: pointer; height: 520px; }
+    .acc-tile:hover .acc-bg { transform: scale(1.05); }
+    .acc-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: transform 0.7s ease; }
+    .acc-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,28,22,0.84) 0%, rgba(20,28,22,0.14) 60%); transition: background 0.4s; }
+    .acc-tile:hover .acc-overlay { background: linear-gradient(to top, rgba(20,28,22,0.92) 0%, rgba(20,28,22,0.28) 60%); }
+    .acc-content { position: absolute; bottom: 0; left: 0; right: 0; padding: 36px 28px; color: var(--white); }
+    .acc-num { font-family: var(--font-serif); font-size: 3rem; font-weight: 300; color: var(--stone); opacity: 0.7; line-height: 1; margin-bottom: 8px; }
+    .acc-title { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; line-height: 1.25; margin-bottom: 14px; }
+    .acc-body { font-size: 0.84rem; font-weight: 300; line-height: 1.7; color: rgba(255,255,255,0.82); max-height: 0; overflow: hidden; transition: max-height 0.5s ease, opacity 0.4s; opacity: 0; }
+    .acc-tile:hover .acc-body, .acc-tile.active .acc-body { max-height: 180px; opacity: 1; }
+    .acc-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--stone); max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.5s ease, opacity 0.4s 0.1s; }
+    .acc-tile:hover .acc-link, .acc-tile.active .acc-link { max-height: 48px; opacity: 1; }
+
+    /* ── PHILOSOPHY ── */
+    #philosophy { position: relative; padding: 100px 24px; overflow: hidden; }
+    .philosophy-bg { position: absolute; inset: 0; background-image: url('https://guesthouse.der-bircher.it/images/1200/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg'); background-size: cover; background-position: center; filter: brightness(0.32); }
+    .philosophy-inner { position: relative; z-index: 2; max-width: 780px; margin-inline: auto; text-align: center; }
+    .quote-mark { font-family: var(--font-serif); font-size: 5rem; color: var(--stone); line-height: 0.6; display: block; margin-bottom: 20px; opacity: 0.7; }
+    .philosophy-quote { font-family: var(--font-serif); font-size: clamp(1.4rem, 2.8vw, 2.1rem); font-weight: 300; font-style: italic; line-height: 1.5; color: var(--white); margin-bottom: 32px; }
+    .philosophy-attr { font-size: 0.72rem; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase; color: var(--stone); }
+
+    /* ── RATINGS ── */
+    #bewertungen { background: var(--white); padding: 72px 24px; }
+    .ratings-inner { max-width: var(--max-w); margin-inline: auto; }
+    .ratings-label { font-size: 0.64rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--stone); text-align: center; margin-bottom: 48px; }
+    .ratings-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .rating-card { background: var(--cream); padding: 36px 28px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px; transition: background 0.3s; }
+    .rating-card:hover { background: var(--cream-dark); }
+    .rating-platform { font-size: 0.68rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--warm-gray); }
+    .rating-score { font-family: var(--font-serif); font-size: 3.4rem; font-weight: 300; color: var(--forest); line-height: 1; }
+    .rating-stars { display: flex; gap: 3px; color: var(--stone); font-size: 1rem; }
+    .rating-divider { width: 32px; height: 1px; background: var(--stone); opacity: 0.4; }
+    .rating-text { font-family: var(--font-serif); font-size: 1rem; font-style: italic; color: var(--forest); line-height: 1.4; }
+    .rating-count { font-size: 0.75rem; color: var(--warm-gray); }
+
+    /* ── APARTMENT SLIDER ── */
+    #zimmer { background: var(--forest); padding: var(--pad) 0 0; }
+    #zimmer .section-header { padding-inline: 24px; }
+    #zimmer .section-h2  { color: var(--white); }
+    #zimmer .section-label { color: var(--stone); }
+    #zimmer .section-text  { color: rgba(255,255,255,0.60); }
+    .slider-wrap  { position: relative; overflow: hidden; margin-top: 52px; }
+    .slider-track { display: flex; transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .slide { flex: 0 0 100%; display: grid; grid-template-columns: 55% 45%; min-height: 480px; }
+    .slide-img { overflow: hidden; position: relative; }
+    .slide-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
+    .slide-img:hover img { transform: scale(1.04); }
+    .slide-body { background: var(--forest-mid); padding: 52px 52px 52px 48px; display: flex; flex-direction: column; justify-content: center; gap: 18px; }
+    .slide-tag  { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); }
+    .slide-name { font-family: var(--font-serif); font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 400; color: var(--white); line-height: 1.2; }
+    .slide-desc { font-size: 0.88rem; font-weight: 300; color: rgba(255,255,255,0.70); line-height: 1.75; }
+    .slide-meta { display: flex; gap: 24px; flex-wrap: wrap; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.10); }
+    .slide-meta-item { display: flex; flex-direction: column; gap: 3px; }
+    .meta-val { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 300; color: var(--stone); line-height: 1; }
+    .meta-lbl { font-size: 0.68rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.40); }
+    .slide-cta { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border: 1px solid rgba(184,154,106,0.5); color: var(--stone); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; align-self: flex-start; transition: background 0.25s, border-color 0.25s, color 0.25s; }
+    .slide-cta:hover { background: var(--stone); border-color: var(--stone); color: var(--white); }
+    .slider-nav { display: flex; align-items: center; justify-content: space-between; padding: 28px 48px; background: rgba(0,0,0,0.18); }
+    .slider-dots { display: flex; gap: 10px; }
+    .slider-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.25); border: none; cursor: pointer; transition: background 0.3s, transform 0.3s; padding: 0; }
+    .slider-dot.active { background: var(--stone); transform: scale(1.25); }
+    .slider-arrows { display: flex; gap: 8px; }
+    .slider-btn { width: 44px; height: 44px; background: transparent; border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.7); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color 0.25s, color 0.25s, background 0.25s; }
+    .slider-btn:hover { border-color: var(--stone); color: var(--stone); background: rgba(184,154,106,0.1); }
+    .slider-btn svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+    .slider-counter { font-family: var(--font-serif); font-size: 0.90rem; color: rgba(255,255,255,0.40); letter-spacing: 0.08em; }
+    .slider-counter span { color: var(--stone); }
+
+    /* ── EXPERIENCES ── */
+    #erlebnisse { background: var(--white); padding: var(--pad) 24px; }
+    .exp-grid { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 52px; }
+    .exp-item { display: flex; flex-direction: column; gap: 14px; padding: 28px 22px; background: var(--cream); border-left: 3px solid var(--stone); transition: transform 0.3s; }
+    .exp-item:hover { transform: translateY(-4px); }
+    .exp-icon-wrap path, .exp-icon-wrap circle, .exp-icon-wrap polyline, .exp-icon-wrap line, .exp-icon-wrap rect { stroke: var(--stone); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    .exp-icon-wrap { width: 36px; height: 36px; }
+    .exp-name { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 400; color: var(--forest); }
+    .exp-desc { font-size: 0.82rem; color: var(--warm-gray); line-height: 1.7; }
+
+    /* ── REVIEWS ── */
+    #reviews { background: var(--cream); padding: var(--pad) 24px; }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 52px; }
+    .review-card { background: var(--white); padding: 32px 28px; display: flex; flex-direction: column; gap: 16px; border-bottom: 3px solid transparent; transition: border-color 0.3s, transform 0.3s; }
+    .review-card:hover { border-color: var(--stone); transform: translateY(-4px); }
+    .review-stars { display: flex; gap: 3px; color: var(--stone); font-size: 0.85rem; }
+    .review-text { font-family: var(--font-serif); font-size: 1.02rem; font-style: italic; line-height: 1.65; color: var(--forest); flex: 1; }
+    .review-author { display: flex; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid var(--cream-dark); }
+    .review-avatar { width: 38px; height: 38px; border-radius: 50%; background: var(--forest); display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 0.75rem; font-weight: 500; flex-shrink: 0; }
+    .review-name { font-size: 0.80rem; font-weight: 500; color: var(--charcoal); }
+    .review-meta { font-size: 0.70rem; color: var(--warm-gray); }
+
+    /* ── GALLERY ── */
+    #impressionen { background: var(--cream-dark); padding: var(--pad) 24px; }
+    .gallery-grid { max-width: var(--max-w); margin-inline: auto; margin-top: 52px; display: grid; grid-template-columns: repeat(12, 1fr); gap: 4px; }
+    .gal-item { overflow: hidden; position: relative; }
+    .gal-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+    .gal-item:hover img { transform: scale(1.05); }
+    .gal-item:nth-child(1) { grid-column: span 7; aspect-ratio: 16/9; }
+    .gal-item:nth-child(2) { grid-column: span 5; aspect-ratio: 16/9; }
+    .gal-item:nth-child(3) { grid-column: span 4; aspect-ratio: 4/3; }
+    .gal-item:nth-child(4) { grid-column: span 4; aspect-ratio: 4/3; }
+    .gal-item:nth-child(5) { grid-column: span 4; aspect-ratio: 4/3; }
+    .gal-item:nth-child(6) { grid-column: span 6; aspect-ratio: 16/9; }
+    .gal-item:nth-child(7) { grid-column: span 6; aspect-ratio: 16/9; }
+
+    /* ── CTA + FORM ── */
+    #anfrage { background: var(--cream); padding: var(--pad) 24px; }
+    .cta-inner { max-width: 860px; margin-inline: auto; text-align: center; }
+    .cta-h2 { font-family: var(--font-serif); font-size: clamp(1.9rem, 3.5vw, 3rem); font-weight: 300; color: var(--forest); margin-bottom: 18px; line-height: 1.2; }
+    .cta-text { font-size: 0.92rem; color: var(--warm-gray); line-height: 1.8; margin-bottom: 40px; }
+    .cta-contact-bar { display: grid; grid-template-columns: 1fr 1px 1fr; gap: 28px; align-items: center; background: var(--white); padding: 28px 36px; margin-bottom: 32px; }
+    .cta-divider { background: var(--cream-dark); height: 100%; min-height: 40px; }
+    .contact-method { text-align: center; }
+    .contact-icon-svg { width: 22px; height: 22px; margin: 0 auto 8px; }
+    .contact-icon-svg path, .contact-icon-svg circle, .contact-icon-svg polyline { stroke: var(--stone); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .contact-label { font-size: 0.65rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--stone); margin-bottom: 6px; display: block; }
+    .contact-value { font-family: var(--font-serif); font-size: 1.15rem; color: var(--forest); }
+    .contact-note { font-size: 0.75rem; color: var(--warm-gray); margin-top: 4px; }
+    .form-wrap { background: var(--white); padding: 40px 44px; text-align: left; }
+    .form-title { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; color: var(--forest); margin-bottom: 8px; }
+    .form-subtitle { font-size: 0.82rem; color: var(--warm-gray); margin-bottom: 28px; }
+
+    /* Form styles integrated */
+    .custom-form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .full-width  { grid-column: span 2; }
+    .m-side { }
+    .custom-form label { display: block; margin-bottom: 5px; font-weight: 500; color: var(--charcoal); font-size: 0.82rem; letter-spacing: 0.03em; }
+    .req::after { content: " *"; color: var(--stone-dark); }
+    .custom-form input,
+    .custom-form select,
+    .custom-form textarea { width: 100%; padding: 11px 14px; border: 1px solid var(--cream-dark); border-radius: 0; font-size: 0.92rem; font-family: var(--font-sans); background: var(--white); color: var(--charcoal); transition: border-color 0.2s, box-shadow 0.2s; box-sizing: border-box; }
+    .custom-form input:focus,
+    .custom-form select:focus,
+    .custom-form textarea:focus { border-color: var(--stone); outline: none; box-shadow: 0 0 0 2px rgba(184,154,106,0.15); }
+    .custom-form input.error,
+    .custom-form select.error { border-color: #c0392b !important; }
+    .phone-row { display: flex; gap: 6px; }
+    .phone-row select { flex: 0 0 auto; width: 118px; font-size: 0.88rem; }
+    .phone-row input  { flex: 1; }
+    .child-age-field { display: none; }
+    .privacy-row { grid-column: span 2; display: flex; align-items: flex-start; gap: 10px; padding: 14px 16px; background: var(--cream); border: 1px solid var(--cream-dark); }
+    .privacy-row input[type="checkbox"] { width: 18px; min-width: 18px; height: 18px; margin-top: 2px; cursor: pointer; accent-color: var(--stone); }
+    .privacy-row label { font-size: 0.80rem; color: var(--warm-gray); font-weight: 400; margin: 0; cursor: pointer; line-height: 1.5; }
+    .privacy-row label a { color: var(--stone); text-decoration: underline; }
+    .field-error { font-size: 0.76rem; color: #c0392b; margin-top: 3px; display: none; }
+    .submit-btn { grid-column: span 2; background: var(--stone); color: var(--white); padding: 15px; border: none; cursor: pointer; font-family: var(--font-sans); font-size: 0.88rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 6px; transition: background 0.2s, transform 0.2s; }
+    .submit-btn:hover { background: var(--stone-dark); transform: translateY(-1px); }
+    .submit-btn:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+    .success-msg { display: none; grid-column: span 2; background: #e8f5e9; border: 1px solid #a5d6a7; padding: 16px; color: #2e7d32; font-size: 0.92rem; font-weight: 500; text-align: center; line-height: 1.5; }
+
+    /* ── FOOTER ── */
+    #footer { background: var(--charcoal); padding: 56px 24px 32px; }
+    .footer-inner { max-width: var(--max-w); margin-inline: auto; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .footer-logo-name { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 500; color: var(--white); }
+    .footer-logo-sub  { font-size: 0.62rem; font-weight: 300; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+    .footer-tagline { font-size: 0.80rem; color: rgba(255,255,255,0.35); line-height: 1.7; margin-top: 14px; margin-bottom: 20px; }
+    .footer-social { display: flex; gap: 10px; }
+    .social-link { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.04em; transition: border-color 0.25s, color 0.25s; }
+    .social-link:hover { border-color: var(--stone); color: var(--stone); }
+    .footer-col-title { font-size: 0.65rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); margin-bottom: 18px; }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: 0.82rem; color: rgba(255,255,255,0.40); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--white); }
+    .seo-keywords { font-size: 0.74rem; color: rgba(255,255,255,0.15); line-height: 1.8; margin-top: 16px; }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding-top: 28px; font-size: 0.72rem; color: rgba(255,255,255,0.22); }
+    .footer-legal { display: flex; gap: 20px; }
+    .footer-legal a { color: rgba(255,255,255,0.22); transition: color 0.2s; }
+    .footer-legal a:hover { color: rgba(255,255,255,0.55); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .intro-inner { grid-template-columns: 1fr; }
+      .intro-image-wrap { display: none; }
+      .accordion-grid { grid-template-columns: 1fr; }
+      .acc-tile { height: 340px; }
+      .acc-body { max-height: 140px !important; opacity: 1 !important; }
+      .acc-link { max-height: 48px !important; opacity: 1 !important; }
+      .usps-inner { grid-template-columns: repeat(2, 1fr); }
+      .ratings-grid { grid-template-columns: 1fr; gap: 2px; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .slide { grid-template-columns: 1fr; min-height: auto; }
+      .slide-img { aspect-ratio: 16/9; }
+      .exp-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .gal-item { grid-column: span 1 !important; aspect-ratio: 1/1 !important; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 768px) {
+      :root { --pad: 60px; }
+      .header-tel { display: none; }
+      .hero-h1 { font-size: 2.1rem; }
+      .hero-kw { max-width: 100%; font-size: 0.84rem; }
+      .hero-scroll { display: none; }
+      .intro-meta { flex-wrap: wrap; gap: 20px; }
+      .slide-body { padding: 32px 24px; }
+      .slider-nav { padding: 20px 24px; }
+      .exp-grid { grid-template-columns: 1fr; }
+      .cta-contact-bar { grid-template-columns: 1fr; gap: 20px; padding: 24px; }
+      .cta-divider { display: none; }
+      .form-wrap { padding: 28px 24px; }
+      .custom-form { grid-template-columns: 1fr; }
+      .full-width, .privacy-row, .submit-btn, .success-msg { grid-column: span 1; }
+      .footer-top { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+      /* Inklusivleistungen mobile */
+      .inkl-card { padding: 24px 20px; }
+      .info-strip-item { padding: 24px 20px; }
+      .inklusive-grid { gap: 16px; margin-bottom: 0; }
+      /* Ratings single column mobile */
+      .ratings-grid { grid-template-columns: 1fr; }
+      /* Section header */
+      .section-header { margin-bottom: 36px; }
+    }
+    @media (max-width: 480px) {
+      :root { --pad: 48px; }
+      .hero-h1 { font-size: 1.85rem; line-height: 1.15; }
+      .hero-badge { font-size: 0.60rem; }
+      .hero-cta-wrap { flex-direction: column; }
+      .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+      .btn-avail { padding: 10px 14px; font-size: 0.72rem; letter-spacing: 0.08em; }
+      /* USPs single column on small screens */
+      .usps-inner { grid-template-columns: 1fr; }
+      /* Gallery single column */
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gal-item { aspect-ratio: 4/3 !important; }
+      /* Intro meta wrap */
+      .intro-meta { gap: 16px; }
+      .meta-num { font-size: 1.8rem; }
+      /* Form phone row */
+      .phone-row select { width: 100px; font-size: 0.82rem; }
+      /* Slider nav */
+      .slider-counter { font-size: 0.80rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BJVQ69F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ── HEADER ── -->
+<header id="site-header">
+  <div class="header-inner">
+    <a href="#hero" class="header-logo" aria-label="Historic Guesthouse Der Bircher">
+      <img class="logo-img" src="https://cdn1.site-media.eu/images/0/17857494/BircherLogoreversedcoloredSVG1-mz2KwGADJ8ciYkKqVfGo5A.svg" alt="Historic Guesthouse Der Bircher" />
+    </a>
+    <nav class="header-nav">
+      <a href="#bookingForm" class="btn-avail">
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="3" width="12" height="11" rx="1"/>
+          <line x1="2" y1="7" x2="14" y2="7"/>
+          <line x1="5.5" y1="1.5" x2="5.5" y2="4.5"/>
+          <line x1="10.5" y1="1.5" x2="10.5" y2="4.5"/>
+        </svg>
+        Verfügbarkeit prüfen
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg" style="background-image: url('https://cdn1.site-media.eu/images/0/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content container">
+    <div class="hero-badge">Ferienwohnung Sterzing &nbsp;&middot;&nbsp; Wipptal &nbsp;&middot;&nbsp; Südtirol</div>
+    <h1 class="hero-h1">Ihre Ferienwohnung<br>bei Sterzing –<br>Historic Guesthouse<br>Der Bircher</h1>
+    <span class="hero-kw">Appartement &amp; Unterkunft in Freienfeld bei Sterzing &ndash; modern, hundefreundlich, mit SterzingCard inklusive. Ferienwohnung Wipptal auf 995 m.</span>
+    <div class="hero-cta-wrap">
+      <a href="#bookingForm" class="btn-primary">Jetzt unverbindlich anfragen</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <span class="hero-scroll-line"></span>
+    <span>Entdecken</span>
+  </div>
+</section>
+
+<!-- ── INTRO ── -->
+<section id="intro">
+  <div class="intro-inner fade-up">
+    <div class="intro-text-col">
+      <span class="section-label">Unterkunft Freienfeld &ndash; Sterzing &ndash; Wipptal</span>
+      <h2 class="intro-h2">Ferienwohnung in Sterzing –<br>Historisch trifft modern im Wipptal</h2>
+      <p class="intro-text">Hoch über dem südlichen Wipptal auf <strong>995 m ü.d.M.</strong>, im ruhigen Dorf <strong>Maria Trens</strong> in der Gemeinde Freienfeld, empfängt Sie das <strong>Historic Guesthouse Bircher</strong> – ein liebevoll gestaltetes Gästehaus, das historischen Flair und modernen Komfort vereint.</p>
+      <p class="intro-text">Unsere großzügigen <strong>Ferienwohnungen bei Sterzing</strong> überzeugen mit warmem Holz, Designerdetails und Panoramaterrassen mit Blick über das Eisacktal bis zu den Gipfeln der Stubaier Alpen. Ob <strong>Appartement Sterzing</strong> für Paare, Familien oder Gäste mit Hund – hier finden Sie Ihre perfekte Unterkunft im Wipptal.</p>
+      <p class="intro-text">Die mittelalterliche Altstadt von Sterzing ist nur wenige Minuten entfernt. Direkt vor der Haustür starten Wanderwege, der Eisacktal-Radweg und im Winter führen Sie Skipisten zum Rosskopf.</p>
+      <div class="intro-meta">
+        <div><span class="meta-num">3</span><span class="meta-label">Appartementkategorien</span></div>
+        <div><span class="meta-num">995</span><span class="meta-label">m Seehöhe</span></div>
+        <div><span class="meta-num">5 km</span><span class="meta-label">bis Sterzing</span></div>
+      </div>
+    </div>
+    <div class="intro-image-wrap">
+      <img class="intro-image-main"
+        src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg"
+        alt="Ferienwohnung Sterzing – Wohnraum mit Küche im Historic Guesthouse Der Bircher"
+        loading="lazy" width="560" height="740" />
+      <div class="intro-image-badge">
+        <svg class="badge-icon-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M16 3C10.5 3 6 7.5 6 13c0 8 10 16 10 16s10-8 10-16c0-5.5-4.5-10-10-10z" stroke="#B89A6A" stroke-width="1.5" fill="none"/>
+          <circle cx="16" cy="13" r="3" stroke="#B89A6A" stroke-width="1.5" fill="none"/>
+        </svg>
+        <div class="badge-text">Maria Trens, Freienfeld &middot; Wipptal, Südtirol</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── USPs ── -->
+<section id="usps">
+  <div class="usps-inner container fade-up">
+    <div class="usp-item">
+      <svg class="usp-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M8 24s0-8 8-8 8 8 8 8"/>
+        <path d="M6 18c0-2 1.5-4 4-4"/>
+        <circle cx="20" cy="10" r="2.5"/>
+        <path d="M26 18c0-2-1.5-4-4-4"/>
+      </svg>
+      <div class="usp-name">Urlaub mit Hund Südtirol</div>
+      <div class="usp-desc">Hundefreundliche Ferienwohnungen im Wipptal. Körbchen, Futternäpfe und Hundewiese warten bereits auf Ihren Vierbeiner.</div>
+    </div>
+    <div class="usp-item">
+      <svg class="usp-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="4" y="8" width="24" height="18" rx="1.5"/>
+        <line x1="4" y1="14" x2="28" y2="14"/>
+        <line x1="11" y1="5" x2="11" y2="11"/>
+        <line x1="21" y1="5" x2="21" y2="11"/>
+      </svg>
+      <div class="usp-name">SterzingCard inklusive</div>
+      <div class="usp-desc">Bus, Bahn &amp; Bergbahnen gratis – die SterzingCard für alle öffentlichen Verkehrsmittel in Südtirol ist im Aufenthalt inbegriffen.</div>
+    </div>
+    <div class="usp-item">
+      <svg class="usp-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M6 20c0-4 3-7 7-7h6c4 0 7 3 7 7v4H6v-4z"/>
+        <path d="M11 9V7a5 5 0 0 1 10 0v2"/>
+        <line x1="16" y1="13" x2="16" y2="17"/>
+      </svg>
+      <div class="usp-name">Frühstück im moidls lokäischn</div>
+      <div class="usp-desc">Regionaler Genuss am Morgen: Frisches Buffet mit Südtiroler Spezialitäten, Honig und Marmeladen aus eigenem Anbau.</div>
+    </div>
+    <div class="usp-item">
+      <svg class="usp-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="12"/>
+        <polyline points="16,8 16,16 21,21"/>
+      </svg>
+      <div class="usp-name">24h Check-in & Parkplatz</div>
+      <div class="usp-desc">Flexible Anreise zu jeder Zeit. Kostenfreie Parkplätze direkt am Haus – für einen entspannten Start Ihres Urlaubs in Sterzing.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HIGHLIGHTS ── -->
+<section id="highlights">
+  <div class="section-header fade-up">
+    <span class="section-label">Warum Guesthouse Der Bircher</span>
+    <h2 class="section-h2">Ihre Unterkunft in Sterzing –<br>mehr als nur ein Appartement</h2>
+    <p class="section-text">Drei Gründe, warum unser Guesthouse in Freienfeld die perfekte Ferienwohnung bei Sterzing für Ihren Südtirol-Urlaub ist.</p>
+  </div>
+  <div class="accordion-grid">
+    <div class="acc-tile">
+      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/1120/17277990/Garten3-OQuWH56mKJTbkXZxQegLng.jpg');"></div>
+      <div class="acc-overlay"></div>
+      <div class="acc-content">
+        <div class="acc-num">01</div>
+        <h3 class="acc-title">Urlaub mit Hund –<br>Wipptal hundefreundlich</h3>
+        <div class="acc-body">Unsere Ferienwohnung bei Sterzing ist ideal für Gäste mit Hund. Weitläufige Wiesen, Wanderwege direkt ab Haustür und ein liebevoll eingerichtetes Körbchen erwarten Ihren Vierbeiner. Urlaub mit Hund Südtirol – hier ist er willkommen!</div>
+        <a href="#bookingForm" class="acc-link">Jetzt anfragen &#8594;</a>
+      </div>
+    </div>
+    <div class="acc-tile">
+      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/802/17279682/DSC09449-cOXHuMwiNzLelPeTNFsYLw.JPG');"></div>
+      <div class="acc-overlay"></div>
+      <div class="acc-content">
+        <div class="acc-num">02</div>
+        <h3 class="acc-title">SterzingCard &amp;<br>Freizeit im Wipptal</h3>
+        <div class="acc-body">Mit der SterzingCard erkunden Sie Südtirol gratis – Bus, Regionalzug bis Trient, Bergbahnen und über 90 Museen. Kostenlose Nutzung der Golfanlage Sterzing inklusive. Ihr Appartement Sterzing mit dem Rundum-Sorglos-Paket.</div>
+        <a href="#bookingForm" class="acc-link">Jetzt anfragen &#8594;</a>
+      </div>
+    </div>
+    <div class="acc-tile">
+      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/1200/17279751/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg');"></div>
+      <div class="acc-overlay"></div>
+      <div class="acc-content">
+        <div class="acc-num">03</div>
+        <h3 class="acc-title">Komfort-Appartements<br>mit Küche &amp; Terrasse</h3>
+        <div class="acc-body">45–70 m² für 2–6 Personen. Liebevoll erhaltene Holzbalken, vollausgestattete Küche, Smart-TV und Balkon mit Panoramablick über das Eisacktal. Die exklusive Alternative zum Hotel in Freienfeld – mit mehr Freiheit und Privatsphäre.</div>
+        <a href="#bookingForm" class="acc-link">Appartements ansehen &#8594;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PHILOSOPHY ── -->
+<section id="philosophy">
+  <div class="philosophy-bg" role="img" aria-label="Panorama Wipptal – Guesthouse Der Bircher Freienfeld"></div>
+  <div class="philosophy-inner fade-up">
+    <span class="quote-mark">&ldquo;</span>
+    <p class="philosophy-quote">Im Wipptal verlangsamt sich die Zeit. Die Berge rund um Sterzing laden ein, durchzuatmen, loszulassen und einfach anzukommen.</p>
+    <span class="philosophy-attr">Historic Guesthouse Der Bircher &nbsp;&middot;&nbsp; Freienfeld bei Sterzing, Wipptal, Südtirol</span>
+  </div>
+</section>
+
+<!-- ── RATINGS ── -->
+<section id="bewertungen">
+  <div class="ratings-inner fade-up">
+    <p class="ratings-label">Ausgezeichnet bewertet – von echten Gästen unserer Ferienwohnung in Sterzing</p>
+    <div class="ratings-grid">
+      <div class="rating-card">
+        <div class="rating-platform">Booking.com</div>
+        <div class="rating-score">9.6</div>
+        <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rating-divider"></div>
+        <div class="rating-text">&bdquo;Au&szlig;ergewöhnlich&ldquo;</div>
+        <div class="rating-count">Verifizierte Gästebewertungen</div>
+      </div>
+      <div class="rating-card">
+        <div class="rating-platform">HolidayCheck</div>
+        <div class="rating-score">5.9<span style="font-size:1.6rem;color:var(--warm-gray)"> /6</span></div>
+        <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rating-divider"></div>
+        <div class="rating-text">&bdquo;Exzellent&ldquo;</div>
+        <div class="rating-count">Verifizierte Urlaubsbewertungen</div>
+      </div>
+      <div class="rating-card">
+        <div class="rating-platform">Google Reviews</div>
+        <div class="rating-score">4.8<span style="font-size:1.6rem;color:var(--warm-gray)"> /5</span></div>
+        <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rating-divider"></div>
+        <div class="rating-text">&bdquo;Sehr empfehlenswert&ldquo;</div>
+        <div class="rating-count">Verifizierte Gästebewertungen</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── APARTMENT SLIDER ── -->
+<section id="zimmer">
+  <div class="section-header fade-up">
+    <span class="section-label">Appartements &amp; Ferienwohnungen Sterzing</span>
+    <h2 class="section-h2">Ihre Unterkunft bei Sterzing –<br>drei Appartementkategorien</h2>
+    <p class="section-text">Alle Ferienwohnungen im Guesthouse Der Bircher bieten vollausgestattete Küche, Balkon oder Terrasse und Blick über das Wipptal.</p>
+  </div>
+  <div class="slider-wrap" id="roomSlider">
+    <div class="slider-track" id="sliderTrack">
+
+      <article class="slide">
+        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279593/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Appartement Lodge 211 – Ferienwohnung Sterzing im Guesthouse Der Bircher" loading="lazy" /></div>
+        <div class="slide-body">
+          <span class="slide-tag">Appartement 01 &middot; Ferienwohnung Sterzing</span>
+          <h3 class="slide-name">Appartement &bdquo;Lodge 211&ldquo;</h3>
+          <p class="slide-desc">Großzügiges Komfort-Appartement mit charaktervollem Lodge-Charme. Historische Holzbalken, modernes Design und eine vollausgestattete Küche – Ihre exklusive Unterkunft in Freienfeld bei Sterzing mit Panoramaterrasse und weitem Blick über das Wipptal.</p>
+          <div class="slide-meta">
+            <div class="slide-meta-item"><span class="meta-val">ca. 65 m²</span><span class="meta-lbl">Wohnfläche</span></div>
+            <div class="slide-meta-item"><span class="meta-val">2 – 4</span><span class="meta-lbl">Personen</span></div>
+            <div class="slide-meta-item"><span class="meta-val">Terrasse</span><span class="meta-lbl">Ausstattung</span></div>
+          </div>
+          <a href="#bookingForm" class="slide-cta">Appartement anfragen</a>
+        </div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279751/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Appartement Comfort 105 – Ferienwohnung Freienfeld Sterzing" loading="lazy" /></div>
+        <div class="slide-body">
+          <span class="slide-tag">Appartement 02 &middot; Ferienwohnung Sterzing</span>
+          <h3 class="slide-name">Ferienwohnung &bdquo;Comfort 105&ldquo;</h3>
+          <p class="slide-desc">Helle und modern eingerichtete Ferienwohnung bei Sterzing für Familien und Paare. Offener Wohnraum mit Küche, bodentiefe Fenster zum Balkon mit Ausblick auf die Bergwelt des Wipptals. Die ideale Unterkunft Sterzing – gemütlich und vollständig ausgestattet.</p>
+          <div class="slide-meta">
+            <div class="slide-meta-item"><span class="meta-val">ca. 55 m²</span><span class="meta-lbl">Wohnfläche</span></div>
+            <div class="slide-meta-item"><span class="meta-val">2 – 4</span><span class="meta-lbl">Personen</span></div>
+            <div class="slide-meta-item"><span class="meta-val">Balkon</span><span class="meta-lbl">Ausstattung</span></div>
+          </div>
+          <a href="#bookingForm" class="slide-cta">Appartement anfragen</a>
+        </div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg" alt="Ferienwohnung für Familien – Appartement Sterzing Wipptal Der Bircher" loading="lazy" /></div>
+        <div class="slide-body">
+          <span class="slide-tag">Appartement 03 &middot; Ferienwohnung Sterzing</span>
+          <h3 class="slide-name">Familien-Appartement &bdquo;Vista&ldquo;</h3>
+          <p class="slide-desc">Unsere großzügigste Ferienwohnung im Wipptal – ideal für Familien bis 6 Personen. Mehrere Schlafräume, offener Wohnbereich mit voll ausgestatteter Küche und große Terrasse mit freiem Blick auf die Stubaier Alpen und das Eisacktal. Ihr Ferienhaus bei Sterzing.</p>
+          <div class="slide-meta">
+            <div class="slide-meta-item"><span class="meta-val">ca. 70 m²</span><span class="meta-lbl">Wohnfläche</span></div>
+            <div class="slide-meta-item"><span class="meta-val">bis 6</span><span class="meta-lbl">Personen</span></div>
+            <div class="slide-meta-item"><span class="meta-val">Panorama</span><span class="meta-lbl">Terrasse</span></div>
+          </div>
+          <a href="#bookingForm" class="slide-cta">Appartement anfragen</a>
+        </div>
+      </article>
+
+    </div>
+    <div class="slider-nav">
+      <div class="slider-dots" id="sliderDots">
+        <button class="slider-dot active" data-index="0" aria-label="Lodge 211"></button>
+        <button class="slider-dot" data-index="1" aria-label="Comfort 105"></button>
+        <button class="slider-dot" data-index="2" aria-label="Familien-Appartement Vista"></button>
+      </div>
+      <div class="slider-counter"><span id="slideCurrentNum">1</span> / <span>3</span></div>
+      <div class="slider-arrows">
+        <button class="slider-btn" id="slidePrev" aria-label="Vorheriges Appartement">
+          <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><polyline points="11,4 6,9 11,14"/></svg>
+        </button>
+        <button class="slider-btn" id="slideNext" aria-label="Nächstes Appartement">
+          <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><polyline points="7,4 12,9 7,14"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCES ── -->
+<section id="erlebnisse">
+  <div class="section-header fade-up">
+    <span class="section-label">Aktivitäten &amp; Erlebnisse</span>
+    <h2 class="section-h2">Sterzing &amp; das Wipptal erleben –<br>Sommer wie Winter</h2>
+    <p class="section-text">Von Ihrer Ferienwohnung in Freienfeld direkt in die Bergwelt des Wipptals – Wandern, Radfahren, Skifahren und Städtebummel in der Altstadt von Sterzing.</p>
+  </div>
+  <div class="exp-grid container fade-up">
+    <div class="exp-item">
+      <svg class="exp-icon-wrap" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M6 30l7-14 4 7 4-5.5L27 30H6z"/><circle cx="27" cy="10" r="2.5"/>
+      </svg>
+      <div class="exp-name">Sterzing Altstadt</div>
+      <p class="exp-desc">Nur 5 km entfernt: Die mittelalterliche Altstadt von Sterzing mit dem Zwölferturm, charmanten Laubengängen, Cafés und Südtiroler Spezialitätenläden.</p>
+    </div>
+    <div class="exp-item">
+      <svg class="exp-icon-wrap" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M8 30V16L18 7l10 9v14H24V22h-6v8H8z"/>
+        <line x1="14" y1="20" x2="14" y2="28"/><line x1="22" y1="20" x2="22" y2="28"/>
+      </svg>
+      <div class="exp-name">Skifahren am Rosskopf</div>
+      <p class="exp-desc">Im Winter sind die Skigebiete Rosskopf, Ratschings und Ladurns nur einen Sprung entfernt – top präparierte Pisten mit modernen Liften und traumhaften Ausblicken.</p>
+    </div>
+    <div class="exp-item">
+      <svg class="exp-icon-wrap" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="10" cy="26" r="3"/><circle cx="26" cy="26" r="3"/>
+        <path d="M13 26h10M10 23V14l5-5 8 5v9"/>
+        <line x1="18" y1="9" x2="18" y2="4"/>
+      </svg>
+      <div class="exp-name">Eisacktal-Radweg</div>
+      <p class="exp-desc">Direkt ab dem Guesthouse starten Sie auf den Eisacktal-Radweg – eine der schönsten Radrouten Südtirols entlang des Eisacks durch malerische Weinberge und Obstgärten.</p>
+    </div>
+    <div class="exp-item">
+      <svg class="exp-icon-wrap" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M18 6c-5.5 0-10 4.5-10 10 0 7 10 14 10 14s10-7 10-14c0-5.5-4.5-10-10-10z"/>
+        <circle cx="18" cy="16" r="3"/>
+      </svg>
+      <div class="exp-name">Wandern im Wipptal</div>
+      <p class="exp-desc">Almwege, Panoramatouren und gemütliche Spaziergänge auf die Prantneralm – das Wipptal bietet für jeden Wandertyp das passende Erlebnis direkt vor Ihrer Unterkunft in Sterzing.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── INKLUSIVLEISTUNGEN ── -->
+<section id="inklusive">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Alles inklusive – Unterkunft Sterzing</span>
+      <h2 class="section-h2">Was in Ihrer Ferienwohnung<br>bei Sterzing inbegriffen ist</h2>
+      <p class="section-text">Im Historic Guesthouse Der Bircher ist vieles selbstverständlich – damit Sie sich in Ihrem Appartement in Freienfeld von Anfang an wohlfühlen.</p>
+    </div>
+
+    <div class="inklusive-grid fade-up">
+      <div class="inkl-card">
+        <div class="inkl-card-title">Inklusivleistungen im Appartement</div>
+        <ul class="inkl-list">
+          <li>ActiveCard / SterzingCard – alle öffentlichen Verkehrsmittel in Südtirol sowie Bergbahnen &amp; Schmalspurbahnen gratis</li>
+          <li>Golfanlage Sterzing kostenlos (Partnerbetrieb des Golfclub Sterzing)</li>
+          <li>Frische Bettwäsche, Badetücher &amp; Kosmetikartikel bei Ihrer Ankunft</li>
+          <li>Freies WLAN im gesamten Gebäude</li>
+          <li>2 Fernseher pro Appartement &amp; Audioanlage</li>
+          <li>Vollausgestattete Küche: Geschirr, Töpfe, Herd, Kühlschrank, Kaffeemaschine, Wasserkocher</li>
+          <li>Kühlschrankservice – Produkte aus unserem Shop direkt ins Appartement</li>
+          <li>Zimmerservice &amp; Endreinigung</li>
+          <li>Gäste-Waschraum: Waschmaschine, Trockner, Bügeleisen</li>
+          <li>Kostenfreier Parkplatz direkt am Haus; Garagenstellplatz auf Anfrage</li>
+        </ul>
+      </div>
+
+      <div class="inkl-card">
+        <div class="inkl-card-title">SterzingCard – kostenlos inklusive</div>
+        <ul class="inkl-list">
+          <li>Regionalzüge kostenlos zwischen Brenner und Trient</li>
+          <li>Lokale Buslinien in ganz Südtirol gratis</li>
+          <li>Gratis Seilbahnfahrten: Ritten, Meransen, Jenesien, Mölten, Vöran &amp; Kohlern</li>
+          <li>Rittner Schmalspurbahn &amp; Mendelbahn kostenlos</li>
+          <li>Freier Eintritt in über <strong>90 Museen</strong> in ganz Südtirol</li>
+          <li>Reduzierter Eintritt in Schwimmbäder, Gärten &amp; ausgewählte Sehenswürdigkeiten</li>
+          <li>Sonderpreise für Fahrradverleih, Verkostungen &amp; geführte Touren (saisonal)</li>
+        </ul>
+        <div class="inkl-note">Die SterzingCard gilt für die gesamte Dauer Ihres Aufenthalts – einfach mitnehmen und Südtirol in all seiner Vielfalt entdecken.</div>
+      </div>
+    </div>
+
+    <div class="info-strip fade-up">
+      <div class="info-strip-item">
+        <div class="info-strip-title">Frühstück im moidls lokäischn</div>
+        <div class="info-strip-text">
+          7:30–10:00 Uhr – oder als Frühstückskorb aufs Appartement.<br><br>
+          Frische Brötchen &amp; Croissants · Aufschnitte &amp; regionaler Käse · Obst, Joghurt &amp; Müsli · Säfte, Kaffee &amp; Tee · Honig, Marmeladen &amp; Kompotte aus eigenem Anbau.<br><br>
+          Vegetarisch, glutenfrei &amp; Co. gern auf Vorbestellung.
+        </div>
+      </div>
+      <div class="info-strip-item">
+        <div class="info-strip-title">Check-in / Check-out &amp; Infos</div>
+        <div class="info-strip-text">
+          Check-in: ab 15:00 Uhr (24h Check-in möglich)<br>
+          Check-out: bis 11:00 Uhr<br>
+          Ortstaxe: €2,50 pro Person/Tag (ab 14 Jahre)<br><br>
+          Mindestaufenthalt: 3 Nächte<br>
+          Haustiere herzlich willkommen
+        </div>
+      </div>
+      <div class="info-strip-item">
+        <div class="info-strip-title">Stornobedingungen</div>
+        <div class="info-strip-text">
+          Bis 21 Tage vor Anreise: kostenfrei (Angeld abzgl. €10 Bearbeitungsgebühr)<br>
+          Weniger als 21 Tage: 30 % der Gesamtkosten<br>
+          Am Anreisetag / Nichterscheinen: 100 %<br>
+          Vorzeitige Abreise: 100 % des Gesamtbetrags<br><br>
+          Nur schriftliche Stornierungen werden akzeptiert.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── REVIEWS ── -->
+<section id="reviews">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Gästestimmen</span>
+      <h2 class="section-h2">Was Gäste über unsere<br>Ferienwohnung in Sterzing sagen</h2>
+      <p class="section-text">Echte Eindrücke von Gästen, die ihre Unterkunft im Wipptal im Guesthouse Der Bircher erlebt haben.</p>
+    </div>
+    <div class="reviews-grid fade-up">
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">&bdquo;Die perfekte Ferienwohnung in Sterzing! Das Appartement war wunderschön eingerichtet, die Lage über dem Wipptal traumhaft. Das Frühstück im moidls lokäischn war jeden Morgen ein Highlight. Wir kommen definitiv wieder.&ldquo;</p>
+        <div class="review-author">
+          <div class="review-avatar">SK</div>
+          <div><div class="review-name">Sandra K.</div><div class="review-meta">Booking.com &middot; Sommer 2025</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">&bdquo;Urlaub mit Hund Südtirol – endlich eine Unterkunft, wo der Hund wirklich willkommen ist! Die Wiesen rund um das Guesthouse, die Wanderwege und der freundliche Empfang haben uns begeistert. Das beste Appartement bei Sterzing!&ldquo;</p>
+        <div class="review-author">
+          <div class="review-avatar">MH</div>
+          <div><div class="review-name">Michael H.</div><div class="review-meta">Google &middot; Frühjahr 2025</div></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">&bdquo;Als Familie waren wir begeistert vom geräumigen Appartement und der SterzingCard – damit haben wir ganz Südtirol entdeckt, ohne extra zu zahlen. Die Lage in Freienfeld ist ruhig und trotzdem nah an Sterzing. Absolute Empfehlung!&ldquo;</p>
+        <div class="review-author">
+          <div class="review-avatar">AW</div>
+          <div><div class="review-name">Anna W.</div><div class="review-meta">HolidayCheck &middot; Herbst 2024</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section id="impressionen">
+  <div class="section-header fade-up">
+    <span class="section-label">Einblicke &amp; Impressionen</span>
+    <h2 class="section-h2">Ferienwohnung Sterzing –<br>Einblicke ins Historic Guesthouse</h2>
+    <p class="section-text">Erleben Sie das besondere Flair unseres Guesthouses in Freienfeld – historischer Charme trifft modernen Wohnkomfort im Wipptal.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/1200/17279670/DSC01307-zMsguLoRoAHLOGPILoYaJw.JPG" alt="Guesthouse Der Bircher – Außenansicht Freienfeld bei Sterzing" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/1120/17277990/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Garten – Ferienwohnung Sterzing Wipptal Der Bircher" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg" alt="Wohnraum mit Küche – Appartement Sterzing" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/1200/17279593/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Lodge 211 – Ferienwohnung Freienfeld" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/897/17279595/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Badezimmer – Unterkunft Sterzing Der Bircher" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/802/17279682/DSC09449-cOXHuMwiNzLelPeTNFsYLw.JPG" alt="Panorama Wipptal – Unterkunft Freienfeld Sterzing" loading="lazy" />
+    </div>
+    <div class="gal-item">
+      <img src="https://guesthouse.der-bircher.it/images/1200/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg" alt="Ausblick – Ferienwohnung Sterzing Südtirol" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA + FORM ── -->
+<section id="anfrage">
+  <div class="cta-inner fade-up">
+    <span class="section-label">Unverbindliche Anfrage</span>
+    <h2 class="cta-h2">Jetzt Ihre Ferienwohnung<br>in Sterzing anfragen</h2>
+    <p class="cta-text">Planen Sie Ihren Urlaub im Wipptal? Fragen Sie jetzt unverbindlich Ihr Appartement im Historic Guesthouse Der Bircher in Freienfeld bei Sterzing an. Wir antworten innerhalb von 24 Stunden.</p>
+
+    <div class="cta-contact-bar">
+      <div class="contact-method">
+        <svg class="contact-icon-svg" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M3 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5z"/>
+          <polyline points="3,5 11,13 19,5"/>
+        </svg>
+        <span class="contact-label">E-Mail</span>
+        <a href="mailto:info@der-bircher.it" class="contact-value">info@der-bircher.it</a>
+        <div class="contact-note">Antwort innerhalb von 24h</div>
+      </div>
+      <div class="cta-divider"></div>
+      <div class="contact-method">
+        <svg class="contact-icon-svg" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 4a2 2 0 0 1 2-1h1.5a1 1 0 0 1 .95.68l1 3a1 1 0 0 1-.23 1.02L7.9 9.02a11 11 0 0 0 5.08 5.08l1.32-1.32a1 1 0 0 1 1.02-.23l3 1a1 1 0 0 1 .68.95V16a2 2 0 0 1-2 2C7.16 18 4 10.84 4 4z"/>
+        </svg>
+        <span class="contact-label">Telefon</span>
+        <a href="tel:+390472647122" class="contact-value">+39 0472 647 122</a>
+        <div class="contact-note">Mo–Sa, 8:00–20:00 Uhr</div>
+      </div>
+    </div>
+
+    <div class="form-wrap">
+      <div class="form-title">Unverbindliche Anfrage</div>
+      <div class="form-subtitle">Ferienwohnung Sterzing – Historic Guesthouse Der Bircher, Freienfeld &nbsp;|&nbsp; Wir melden uns schnellstmöglich bei Ihnen.</div>
+
+      <form id="bookingForm" class="custom-form" novalidate>
+        <div class="m-side">
+          <label class="req" for="ankunft">Ankunft</label>
+          <input type="text" id="ankunft" placeholder="tt.mm.jjjj" required />
+          <div class="field-error" id="errAnkunft">Bitte Ankunftsdatum wählen.</div>
+        </div>
+        <div class="m-side">
+          <label class="req" for="abreise">Abreise</label>
+          <input type="text" id="abreise" placeholder="tt.mm.jjjj" required />
+          <div class="field-error" id="errAbreise">Bitte Abreisedatum wählen.</div>
+        </div>
+        <div class="m-side">
+          <label for="erwachsene">Erwachsene</label>
+          <select id="erwachsene">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="m-side">
+          <label for="kCount">Kinder</label>
+          <select id="kCount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div id="k1" class="child-age-field m-side"><label class="req">Alter Kind 1</label><input type="number" name="alter_k1" min="0" max="17"></div>
+        <div id="k2" class="child-age-field m-side"><label class="req">Alter Kind 2</label><input type="number" name="alter_k2" min="0" max="17"></div>
+        <div id="k3" class="child-age-field m-side"><label class="req">Alter Kind 3</label><input type="number" name="alter_k3" min="0" max="17"></div>
+        <div id="k4" class="child-age-field m-side"><label class="req">Alter Kind 4</label><input type="number" name="alter_k4" min="0" max="17"></div>
+        <div id="k5" class="child-age-field m-side"><label class="req">Alter Kind 5</label><input type="number" name="alter_k5" min="0" max="17"></div>
+        <div class="m-side">
+          <label class="req" for="vorname">Vorname</label>
+          <input type="text" id="vorname" required />
+          <div class="field-error" id="errVorname">Bitte Vorname eingeben.</div>
+        </div>
+        <div class="m-side">
+          <label class="req" for="nachname">Nachname</label>
+          <input type="text" id="nachname" required />
+          <div class="field-error" id="errNachname">Bitte Nachname eingeben.</div>
+        </div>
+        <div class="full-width">
+          <label class="req" for="email">E-Mail</label>
+          <input type="email" id="email" required />
+          <div class="field-error" id="errEmail">Bitte gültige E-Mail-Adresse eingeben.</div>
+        </div>
+        <div class="full-width">
+          <label class="req">Telefon</label>
+          <div class="phone-row">
+            <select id="phonePrefix">
+              <option value="0039" selected>🇮🇹 +39</option>
+              <option value="0043">🇦🇹 +43</option>
+              <option value="0049">🇩🇪 +49</option>
+              <option value="0041">🇨🇭 +41</option>
+              <option value="0031">🇳🇱 +31</option>
+              <option value="0032">🇧🇪 +32</option>
+              <option value="0033">🇫🇷 +33</option>
+              <option value="0044">🇬🇧 +44</option>
+              <option value="0048">🇵🇱 +48</option>
+              <option value="0045">🇩🇰 +45</option>
+              <option value="0046">🇸🇪 +46</option>
+              <option value="0047">🇳🇴 +47</option>
+              <option value="00420">🇨🇿 +420</option>
+              <option value="001">🇺🇸 +1</option>
+            </select>
+            <input type="tel" id="phoneNumber" placeholder="331 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
+          </div>
+          <div class="field-error" id="errTelefon">Bitte Telefonnummer eingeben.</div>
+        </div>
+        <div class="full-width">
+          <label for="nachricht">Nachricht (optional)</label>
+          <textarea id="nachricht" rows="3" placeholder="Besondere Wünsche, Fragen zur Unterkunft in Sterzing, Urlaub mit Hund…"></textarea>
+        </div>
+        <div class="privacy-row">
+          <input type="checkbox" id="privacy" required />
+          <label for="privacy">Ich habe die <a href="https://www.der-bircher.it/privacy" target="_blank">Datenschutzbestimmungen</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu. *</label>
+        </div>
+        <div class="field-error full-width" id="errPrivacy" style="margin-top:-8px;">Bitte Datenschutzbestimmungen akzeptieren.</div>
+        <div class="success-msg" id="successMsg">&#10003; Vielen Dank! Ihre Anfrage wurde erfolgreich gesendet.<br>Wir melden uns so schnell wie möglich bei Ihnen.</div>
+        <button type="submit" class="submit-btn" id="sBtn">Unverbindliche Anfrage senden</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo-name">Der Bircher</div>
+        <div class="footer-logo-sub">Historic Guesthouse · Freienfeld</div>
+        <p class="footer-tagline">Ferienwohnung in Sterzing &amp; Freienfeld im Wipptal. Moderne Appartements mit Südtiroler Charakter – Ihre Unterkunft bei Sterzing auf 995 m Seehöhe, hundefreundlich, mit SterzingCard inklusive.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/der.bircher/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">IG</a>
+          <a href="https://www.facebook.com/GasthofBircher/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">FB</a>
+        </div>
+        <p class="seo-keywords">Ferienwohnung Sterzing · Unterkunft Sterzing · Appartement Sterzing · Ferienwohnung Wipptal · Apartment Freienfeld · Urlaub mit Hund Südtirol · Unterkunft Freienfeld · Fewo Sterzing · Guesthouse Sterzing · Ferienwohnung Südtirol · Hotel Freienfeld Alternative</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Kontakt</div>
+        <div class="footer-links">
+          <a href="tel:+390472647122">+39 0472 647 122</a>
+          <a href="mailto:info@der-bircher.it">info@der-bircher.it</a>
+          <a>Innozenz-Barat-Straße 1</a>
+          <a>39040 Freienfeld (BZ)</a>
+          <a>Südtirol, Italien</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Informationen</div>
+        <div class="footer-links">
+          <a href="#zimmer">Appartements &amp; Preise</a>
+          <a href="#erlebnisse">Aktivitäten Sterzing</a>
+          <a href="#anfrage">Anfrage senden</a>
+          <a href="https://guesthouse.der-bircher.it/de/" target="_blank" rel="noopener">Offizielle Website</a>
+          <a href="https://www.der-bircher.it/privacy" target="_blank" rel="noopener">Datenschutz</a>
+          <a href="https://www.der-bircher.it/impressum" target="_blank" rel="noopener">Impressum</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Gasthof Bircher der Mayr Margit &amp; Co. KG &nbsp;&middot;&nbsp; Ferienwohnung Sterzing, Freienfeld</span>
+      <div class="footer-legal">
+        <a href="https://www.der-bircher.it/privacy" target="_blank">Datenschutz</a>
+        <a href="https://www.der-bircher.it/impressum" target="_blank">Impressum</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── HEADER SCROLL ──
+(function(){
+  var h = document.getElementById('site-header');
+  var onScroll = function(){ h.classList.toggle('scrolled', window.scrollY > 40); };
+  window.addEventListener('scroll', onScroll, {passive: true});
+  onScroll();
+})();
+
+// ── FADE-UP OBSERVER ──
+(function(){
+  var els = document.querySelectorAll('.fade-up');
+  if(!window.IntersectionObserver){ els.forEach(function(e){ e.classList.add('visible'); }); return; }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, {threshold: 0.12});
+  els.forEach(function(el){ obs.observe(el); });
+})();
+
+// ── ROOM SLIDER ──
+(function(){
+  var track  = document.getElementById('sliderTrack');
+  var dots   = document.querySelectorAll('.slider-dot');
+  var prev   = document.getElementById('slidePrev');
+  var next   = document.getElementById('slideNext');
+  var counter= document.getElementById('slideCurrentNum');
+  var total  = document.querySelectorAll('.slide').length;
+  var cur    = 0;
+
+  function goTo(n){
+    cur = (n + total) % total;
+    track.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    dots.forEach(function(d, i){ d.classList.toggle('active', i === cur); });
+    counter.textContent = cur + 1;
+  }
+  prev.addEventListener('click', function(){ goTo(cur - 1); });
+  next.addEventListener('click', function(){ goTo(cur + 1); });
+  dots.forEach(function(d){ d.addEventListener('click', function(){ goTo(parseInt(d.dataset.index)); }); });
+
+  // Auto-advance
+  var interval = setInterval(function(){ goTo(cur + 1); }, 6000);
+  document.getElementById('roomSlider').addEventListener('mouseenter', function(){ clearInterval(interval); });
+})();
+
+// ── FORM ──
+document.addEventListener("DOMContentLoaded", function () {
+  var API_URL    = "https://dashboard.outofthebox-media.com/api/lead";
+  var HOTEL_SLUG = "fwg-der-bircher";
+  var UTM_KEY    = "guestflow_utm";
+
+  (function captureUtm() {
+    var p=new URLSearchParams(window.location.search),src=p.get("utm_source")||"",med=p.get("utm_medium")||"",gcl=p.get("gclid")||"";
+    if(src||med||gcl){
+      var content=p.get("utm_content")||"",device="";
+      if(content.indexOf("_")!==-1) device=content.substring(content.lastIndexOf("_")+1);
+      try{localStorage.setItem(UTM_KEY,JSON.stringify({utm_source:src,utm_medium:med,utm_campaign:p.get("utm_campaign")||"",utm_term:p.get("utm_term")||"",utm_content:content,device:device,gclid:gcl,gad_source:p.get("gad_source")||"",gad_campaignid:p.get("gad_campaignid")||""}));}catch(e){}
+    }
+  })();
+
+  function getUtm(){try{return JSON.parse(localStorage.getItem(UTM_KEY)||"{}");}catch(e){return{};}}
+
+  var aP = flatpickr("#ankunft",{locale:"de",dateFormat:"d.m.Y",minDate:"today",onChange:function(d){
+    if(!d[0])return;
+    var next=new Date(d[0]); next.setDate(next.getDate()+3);
+    bP.set("minDate",next);
+    if(!bP.selectedDates[0]||bP.selectedDates[0]<=d[0]) bP.setDate(next);
+  }});
+  var bP = flatpickr("#abreise",{locale:"de",dateFormat:"d.m.Y",minDate:"today"});
+
+  document.getElementById("kCount").addEventListener("change",function(){
+    var n=parseInt(this.value);
+    for(var i=1;i<=5;i++){
+      var f=document.getElementById("k"+i),inp=f.querySelector("input");
+      if(i<=n){f.style.display="block";inp.required=true;}
+      else{f.style.display="none";inp.required=false;inp.value="";}
+    }
+  });
+
+  document.getElementById("phoneNumber").addEventListener("input",function(){
+    this.value=this.value.replace(/[^0-9 ]/g,"");
+  });
+
+  function buildPhone(){
+    var prefix=document.getElementById("phonePrefix").value,number=document.getElementById("phoneNumber").value;
+    number=number.replace(/\s/g,"").replace(/^0+/,"");
+    return prefix+number;
+  }
+  function toIsoDate(raw){
+    if(!raw)return"";
+    var m=raw.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+    if(m)return m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0");
+    return raw;
+  }
+  function showError(id,show){var el=document.getElementById(id);if(el)el.style.display=show?"block":"none";}
+  function markField(id,error){var el=document.getElementById(id);if(el){if(error)el.classList.add("error");else el.classList.remove("error");}}
+
+  function validate(){
+    var ok=true;
+    var ankunft=document.getElementById("ankunft").value;showError("errAnkunft",!ankunft);markField("ankunft",!ankunft);if(!ankunft)ok=false;
+    var abreise=document.getElementById("abreise").value;showError("errAbreise",!abreise);markField("abreise",!abreise);if(!abreise)ok=false;
+    var vorname=document.getElementById("vorname").value.trim();showError("errVorname",!vorname);markField("vorname",!vorname);if(!vorname)ok=false;
+    var nachname=document.getElementById("nachname").value.trim();showError("errNachname",!nachname);markField("nachname",!nachname);if(!nachname)ok=false;
+    var email=document.getElementById("email").value.trim();var emailOk=email&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);showError("errEmail",!emailOk);markField("email",!emailOk);if(!emailOk)ok=false;
+    var phoneNum=document.getElementById("phoneNumber").value.replace(/\s/g,"");showError("errTelefon",!phoneNum);document.getElementById("phoneNumber").classList.toggle("error",!phoneNum);if(!phoneNum)ok=false;
+    var kinder=parseInt(document.getElementById("kCount").value)||0;
+    for(var i=1;i<=kinder;i++){var ageInp=document.querySelector("[name='alter_k"+i+"']");var ageOk=ageInp&&ageInp.value!==""&&parseInt(ageInp.value)>=0;if(ageInp){if(!ageOk)ageInp.classList.add("error");else ageInp.classList.remove("error");}if(!ageOk)ok=false;}
+    var privacy=document.getElementById("privacy").checked;showError("errPrivacy",!privacy);if(!privacy)ok=false;
+    return ok;
+  }
+
+  document.getElementById("bookingForm").addEventListener("submit",function(e){
+    e.preventDefault();if(!validate())return;
+    var btn=document.getElementById("sBtn");btn.innerText="Sende…";btn.disabled=true;
+    var kinder=parseInt(document.getElementById("kCount").value)||0,ages=[];
+    for(var i=1;i<=kinder;i++){var v=document.querySelector("[name='alter_k"+i+"']");if(v&&v.value!=="")ages.push(v.value);}
+    var utm=getUtm();
+    var payload={
+      hotel_slug:HOTEL_SLUG,
+      firstname:document.getElementById("vorname").value.trim(),
+      lastname:document.getElementById("nachname").value.trim(),
+      email:document.getElementById("email").value.trim(),
+      phone:buildPhone(),
+      checkin:toIsoDate(document.getElementById("ankunft").value),
+      checkout:toIsoDate(document.getElementById("abreise").value),
+      adults:parseInt(document.getElementById("erwachsene").value)||2,
+      children:kinder,
+      children_ages:ages.join(", "),
+      message:document.getElementById("nachricht").value.trim(),
+      room_type:"",
+      language:"DE",
+      utm_source:utm.utm_source||"",
+      utm_medium:utm.utm_medium||"",
+      utm_campaign:utm.utm_campaign||"",
+      utm_term:utm.utm_term||"",
+      utm_content:utm.utm_content||"",
+      device:utm.device||"",
+      gclid:utm.gclid||"",
+      gad_source:utm.gad_source||"",
+      gad_campaignid:utm.gad_campaignid||""
+    };
+    fetch(API_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data&&data.success){
+        window.dataLayer=window.dataLayer||[];
+        window.dataLayer.push({event:"form_lead_success",form_data:{guests:payload.adults,lead_id:data.id,device:payload.device}});
+        document.getElementById("successMsg").style.display="block";
+        btn.style.display="none";
+        try{localStorage.removeItem(UTM_KEY);}catch(e){}
+      } else {
+        alert("Fehler beim Senden. Bitte versuchen Sie es nochmals.");
+        btn.innerText="Unverbindliche Anfrage senden";btn.disabled=false;
+      }
+    })
+    .catch(function(){
+      alert("Netzwerkfehler. Bitte versuchen Sie es nochmals.");
+      btn.innerText="Unverbindliche Anfrage senden";btn.disabled=false;
+    });
+  });
+});
+</script>
+
+</body>
+</html>
