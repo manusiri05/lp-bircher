@@ -154,7 +154,7 @@
 
     /* ── PHILOSOPHY ── */
     #philosophy { position: relative; padding: 100px 24px; overflow: hidden; }
-    .philosophy-bg { position: absolute; inset: 0; background-image: url('https://guesthouse.der-bircher.it/images/1200/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg'); background-size: cover; background-position: center; filter: brightness(0.32); }
+    .philosophy-bg { position: absolute; inset: 0; background-image: url('../../asstes/hero.webp'); background-size: cover; background-position: center; filter: brightness(0.32); }
     .philosophy-inner { position: relative; z-index: 2; max-width: 780px; margin-inline: auto; text-align: center; }
     .quote-mark { font-family: var(--font-serif); font-size: 5rem; color: var(--stone); line-height: 0.6; display: block; margin-bottom: 20px; opacity: 0.7; }
     .philosophy-quote { font-family: var(--font-serif); font-size: clamp(1.4rem, 2.8vw, 2.1rem); font-weight: 300; font-style: italic; line-height: 1.5; color: var(--white); margin-bottom: 32px; }
@@ -260,7 +260,7 @@
     .form-title { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 400; color: var(--forest); margin-bottom: 8px; }
     .form-subtitle { font-size: 0.82rem; color: var(--warm-gray); margin-bottom: 28px; }
 
-    /* Form styles integrated */
+    /* Form styles */
     .custom-form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
     .full-width  { grid-column: span 2; }
     .m-side { }
@@ -343,13 +343,10 @@
       .full-width, .privacy-row, .submit-btn, .success-msg { grid-column: span 1; }
       .footer-top { grid-template-columns: 1fr; gap: 28px; }
       .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
-      /* Inklusivleistungen mobile */
       .inkl-card { padding: 24px 20px; }
       .info-strip-item { padding: 24px 20px; }
       .inklusive-grid { gap: 16px; margin-bottom: 0; }
-      /* Ratings single column mobile */
       .ratings-grid { grid-template-columns: 1fr; }
-      /* Section header */
       .section-header { margin-bottom: 36px; }
     }
     @media (max-width: 480px) {
@@ -359,17 +356,12 @@
       .hero-cta-wrap { flex-direction: column; }
       .btn-primary, .btn-outline { width: 100%; justify-content: center; }
       .btn-avail { padding: 10px 14px; font-size: 0.72rem; letter-spacing: 0.08em; }
-      /* USPs single column on small screens */
       .usps-inner { grid-template-columns: 1fr; }
-      /* Gallery single column */
       .gallery-grid { grid-template-columns: 1fr; }
       .gal-item { aspect-ratio: 4/3 !important; }
-      /* Intro meta wrap */
       .intro-meta { gap: 16px; }
       .meta-num { font-size: 1.8rem; }
-      /* Form phone row */
       .phone-row select { width: 100px; font-size: 0.82rem; }
-      /* Slider nav */
       .slider-counter { font-size: 0.80rem; }
     }
   </style>
@@ -385,7 +377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header id="site-header">
   <div class="header-inner">
     <a href="#hero" class="header-logo" aria-label="Historic Guesthouse Der Bircher">
-      <img class="logo-img" src="https://cdn1.site-media.eu/images/0/17857494/BircherLogoreversedcoloredSVG1-mz2KwGADJ8ciYkKqVfGo5A.svg" alt="Historic Guesthouse Der Bircher" />
+      <img class="logo-img" src="../../asstes/logo_bircher.svg" alt="Historic Guesthouse Der Bircher" />
     </a>
     <nav class="header-nav">
       <a href="#bookingForm" class="btn-avail">
@@ -403,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ── HERO ── -->
 <section id="hero">
-  <div class="hero-bg" style="background-image: url('https://cdn1.site-media.eu/images/0/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg');"></div>
+  <div class="hero-bg" style="background-image: url('../../asstes/hero.webp');"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content container">
     <div class="hero-badge">Ferienwohnung Sterzing &nbsp;&middot;&nbsp; Wipptal &nbsp;&middot;&nbsp; Südtirol</div>
@@ -435,10 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="intro-image-wrap">
-      <img class="intro-image-main"
-        src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg"
-        alt="Ferienwohnung Sterzing – Wohnraum mit Küche im Historic Guesthouse Der Bircher"
-        loading="lazy" width="560" height="740" />
+      <img class="intro-image-main" src="../../asstes/kachel_3.jpg" alt="Ferienwohnung Sterzing – Wohnraum mit Küche im Historic Guesthouse Der Bircher" loading="lazy" width="560" height="740" />
       <div class="intro-image-badge">
         <svg class="badge-icon-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M16 3C10.5 3 6 7.5 6 13c0 8 10 16 10 16s10-8 10-16c0-5.5-4.5-10-10-10z" stroke="#B89A6A" stroke-width="1.5" fill="none"/>
@@ -487,7 +476,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <circle cx="16" cy="16" r="12"/>
         <polyline points="16,8 16,16 21,21"/>
       </svg>
-      <div class="usp-name">24h Check-in & Parkplatz</div>
+      <div class="usp-name">24h Check-in &amp; Parkplatz</div>
       <div class="usp-desc">Flexible Anreise zu jeder Zeit. Kostenfreie Parkplätze direkt am Haus – für einen entspannten Start Ihres Urlaubs in Sterzing.</div>
     </div>
   </div>
@@ -502,7 +491,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="accordion-grid">
     <div class="acc-tile">
-      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/1120/17277990/Garten3-OQuWH56mKJTbkXZxQegLng.jpg');"></div>
+      <div class="acc-bg" style="background-image: url('../../asstes/galerie/Garten3-OQuWH56mKJTbkXZxQegLng.jpg');"></div>
       <div class="acc-overlay"></div>
       <div class="acc-content">
         <div class="acc-num">01</div>
@@ -512,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="acc-tile">
-      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/802/17279682/DSC09449-cOXHuMwiNzLelPeTNFsYLw.JPG');"></div>
+      <div class="acc-bg" style="background-image: url('../../asstes/galerie/DSC09449-cOXHuMwiNzLelPeTNFsYLw.jfif');"></div>
       <div class="acc-overlay"></div>
       <div class="acc-content">
         <div class="acc-num">02</div>
@@ -522,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="acc-tile">
-      <div class="acc-bg" style="background-image: url('https://guesthouse.der-bircher.it/images/1200/17279751/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg');"></div>
+      <div class="acc-bg" style="background-image: url('../../asstes/galerie/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg');"></div>
       <div class="acc-overlay"></div>
       <div class="acc-content">
         <div class="acc-num">03</div>
@@ -588,7 +577,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="slider-track" id="sliderTrack">
 
       <article class="slide">
-        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279593/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Appartement Lodge 211 – Ferienwohnung Sterzing im Guesthouse Der Bircher" loading="lazy" /></div>
+        <div class="slide-img"><img src="../../asstes/galerie/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Appartement Lodge 211 – Ferienwohnung Sterzing im Guesthouse Der Bircher" loading="lazy" /></div>
         <div class="slide-body">
           <span class="slide-tag">Appartement 01 &middot; Ferienwohnung Sterzing</span>
           <h3 class="slide-name">Appartement &bdquo;Lodge 211&ldquo;</h3>
@@ -603,7 +592,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </article>
 
       <article class="slide">
-        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279751/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Appartement Comfort 105 – Ferienwohnung Freienfeld Sterzing" loading="lazy" /></div>
+        <div class="slide-img"><img src="../../asstes/galerie/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Appartement Comfort 105 – Ferienwohnung Freienfeld Sterzing" loading="lazy" /></div>
         <div class="slide-body">
           <span class="slide-tag">Appartement 02 &middot; Ferienwohnung Sterzing</span>
           <h3 class="slide-name">Ferienwohnung &bdquo;Comfort 105&ldquo;</h3>
@@ -618,7 +607,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </article>
 
       <article class="slide">
-        <div class="slide-img"><img src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg" alt="Ferienwohnung für Familien – Appartement Sterzing Wipptal Der Bircher" loading="lazy" /></div>
+        <div class="slide-img"><img src="../../asstes/kachel_3.jpg" alt="Ferienwohnung für Familien – Appartement Sterzing Wipptal Der Bircher" loading="lazy" /></div>
         <div class="slide-body">
           <span class="slide-tag">Appartement 03 &middot; Ferienwohnung Sterzing</span>
           <h3 class="slide-name">Familien-Appartement &bdquo;Vista&ldquo;</h3>
@@ -703,7 +692,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="section-h2">Was in Ihrer Ferienwohnung<br>bei Sterzing inbegriffen ist</h2>
       <p class="section-text">Im Historic Guesthouse Der Bircher ist vieles selbstverständlich – damit Sie sich in Ihrem Appartement in Freienfeld von Anfang an wohlfühlen.</p>
     </div>
-
     <div class="inklusive-grid fade-up">
       <div class="inkl-card">
         <div class="inkl-card-title">Inklusivleistungen im Appartement</div>
@@ -720,7 +708,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li>Kostenfreier Parkplatz direkt am Haus; Garagenstellplatz auf Anfrage</li>
         </ul>
       </div>
-
       <div class="inkl-card">
         <div class="inkl-card-title">SterzingCard – kostenlos inklusive</div>
         <ul class="inkl-list">
@@ -735,35 +722,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="inkl-note">Die SterzingCard gilt für die gesamte Dauer Ihres Aufenthalts – einfach mitnehmen und Südtirol in all seiner Vielfalt entdecken.</div>
       </div>
     </div>
-
     <div class="info-strip fade-up">
       <div class="info-strip-item">
         <div class="info-strip-title">Frühstück im moidls lokäischn</div>
-        <div class="info-strip-text">
-          7:30–10:00 Uhr – oder als Frühstückskorb aufs Appartement.<br><br>
-          Frische Brötchen &amp; Croissants · Aufschnitte &amp; regionaler Käse · Obst, Joghurt &amp; Müsli · Säfte, Kaffee &amp; Tee · Honig, Marmeladen &amp; Kompotte aus eigenem Anbau.<br><br>
-          Vegetarisch, glutenfrei &amp; Co. gern auf Vorbestellung.
-        </div>
+        <div class="info-strip-text">7:30–10:00 Uhr – oder als Frühstückskorb aufs Appartement.<br><br>Frische Brötchen &amp; Croissants · Aufschnitte &amp; regionaler Käse · Obst, Joghurt &amp; Müsli · Säfte, Kaffee &amp; Tee · Honig, Marmeladen &amp; Kompotte aus eigenem Anbau.<br><br>Vegetarisch, glutenfrei &amp; Co. gern auf Vorbestellung.</div>
       </div>
       <div class="info-strip-item">
         <div class="info-strip-title">Check-in / Check-out &amp; Infos</div>
-        <div class="info-strip-text">
-          Check-in: ab 15:00 Uhr (24h Check-in möglich)<br>
-          Check-out: bis 11:00 Uhr<br>
-          Ortstaxe: €2,50 pro Person/Tag (ab 14 Jahre)<br><br>
-          Mindestaufenthalt: 3 Nächte<br>
-          Haustiere herzlich willkommen
-        </div>
+        <div class="info-strip-text">Check-in: ab 15:00 Uhr (24h Check-in möglich)<br>Check-out: bis 11:00 Uhr<br>Ortstaxe: €2,50 pro Person/Tag (ab 14 Jahre)<br><br>Mindestaufenthalt: 3 Nächte<br>Haustiere herzlich willkommen</div>
       </div>
       <div class="info-strip-item">
         <div class="info-strip-title">Stornobedingungen</div>
-        <div class="info-strip-text">
-          Bis 21 Tage vor Anreise: kostenfrei (Angeld abzgl. €10 Bearbeitungsgebühr)<br>
-          Weniger als 21 Tage: 30 % der Gesamtkosten<br>
-          Am Anreisetag / Nichterscheinen: 100 %<br>
-          Vorzeitige Abreise: 100 % des Gesamtbetrags<br><br>
-          Nur schriftliche Stornierungen werden akzeptiert.
-        </div>
+        <div class="info-strip-text">Bis 21 Tage vor Anreise: kostenfrei (Angeld abzgl. €10 Bearbeitungsgebühr)<br>Weniger als 21 Tage: 30 % der Gesamtkosten<br>Am Anreisetag / Nichterscheinen: 100 %<br>Vorzeitige Abreise: 100 % des Gesamtbetrags<br><br>Nur schriftliche Stornierungen werden akzeptiert.</div>
       </div>
     </div>
   </div>
@@ -815,25 +785,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="gallery-grid">
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/1200/17279670/DSC01307-zMsguLoRoAHLOGPILoYaJw.JPG" alt="Guesthouse Der Bircher – Außenansicht Freienfeld bei Sterzing" loading="lazy" />
+      <img src="../../asstes/galerie/DSC01307-zMsguLoRoAHLOGPILoYaJw.jfif" alt="Guesthouse Der Bircher – Außenansicht Freienfeld bei Sterzing" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/1120/17277990/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Garten – Ferienwohnung Sterzing Wipptal Der Bircher" loading="lazy" />
+      <img src="../../asstes/galerie/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Garten – Ferienwohnung Sterzing Wipptal Der Bircher" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/1200/17279590/211WohnraummitKueche-yPFN60Qpp3hqLn-4lmK_Rw.jpg" alt="Wohnraum mit Küche – Appartement Sterzing" loading="lazy" />
+      <img src="../../asstes/kachel_3.jpg" alt="Wohnraum mit Küche – Appartement Sterzing" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/1200/17279593/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Lodge 211 – Ferienwohnung Freienfeld" loading="lazy" />
+      <img src="../../asstes/galerie/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Lodge 211 – Ferienwohnung Freienfeld" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/897/17279595/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Badezimmer – Unterkunft Sterzing Der Bircher" loading="lazy" />
+      <img src="../../asstes/galerie/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Badezimmer – Unterkunft Sterzing Der Bircher" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/802/17279682/DSC09449-cOXHuMwiNzLelPeTNFsYLw.JPG" alt="Panorama Wipptal – Unterkunft Freienfeld Sterzing" loading="lazy" />
+      <img src="../../asstes/galerie/DSC09449-cOXHuMwiNzLelPeTNFsYLw.jfif" alt="Panorama Wipptal – Unterkunft Freienfeld Sterzing" loading="lazy" />
     </div>
     <div class="gal-item">
-      <img src="https://guesthouse.der-bircher.it/images/1200/17279760/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg" alt="Ausblick – Ferienwohnung Sterzing Südtirol" loading="lazy" />
+      <img src="../../asstes/hero.webp" alt="Ausblick – Ferienwohnung Sterzing Südtirol" loading="lazy" />
     </div>
   </div>
 </section>
@@ -927,9 +897,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <label class="req">Telefon</label>
           <div class="phone-row">
             <select id="phonePrefix">
-              <option value="0039" selected>🇮🇹 +39</option>
+              <option value="0039">🇮🇹 +39</option>
               <option value="0043">🇦🇹 +43</option>
-              <option value="0049">🇩🇪 +49</option>
+              <option value="0049" selected>🇩🇪 +49</option>
               <option value="0041">🇨🇭 +41</option>
               <option value="0031">🇳🇱 +31</option>
               <option value="0032">🇧🇪 +32</option>
@@ -942,7 +912,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <option value="00420">🇨🇿 +420</option>
               <option value="001">🇺🇸 +1</option>
             </select>
-            <input type="tel" id="phoneNumber" placeholder="331 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
+            <input type="tel" id="phoneNumber" placeholder="151 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
           </div>
           <div class="field-error" id="errTelefon">Bitte Telefonnummer eingeben.</div>
         </div>
@@ -1047,7 +1017,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   next.addEventListener('click', function(){ goTo(cur + 1); });
   dots.forEach(function(d){ d.addEventListener('click', function(){ goTo(parseInt(d.dataset.index)); }); });
 
-  // Auto-advance
   var interval = setInterval(function(){ goTo(cur + 1); }, 6000);
   document.getElementById('roomSlider').addEventListener('mouseenter', function(){ clearInterval(interval); });
 })();
