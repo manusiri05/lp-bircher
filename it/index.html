@@ -1,1 +1,938 @@
 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BJVQ69F');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>Appartamento Vipiteno – Historic Guesthouse Der Bircher | Alloggio Campo di Trens Alta Valle Isarco</title>
+  <meta name="description" content="Appartamento a Vipiteno e Campo di Trens – Historic Guesthouse Der Bircher nell'Alta Valle Isarco, Alto Adige. Appartamenti moderni 45–70 m², pet-friendly, SterzingCard inclusa. Richiedi ora!" />
+  <meta name="keywords" content="Appartamento Vipiteno, Alloggio Vipiteno, Appartamento Alta Valle Isarco, Appartamento Campo di Trens, Vacanze con cane Alto Adige, Alloggio Campo di Trens, Appartamento Alto Adige, Guesthouse Vipiteno" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/it.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #EDEBE6;
+      --bg-alt:      #F5F2EE;
+      --white:       #FFFFFF;
+      --text:        #2C2016;
+      --text-mid:    #5C5040;
+      --text-light:  #8C8070;
+      --accent:      #C8A898;
+      --accent-dark: #A8887A;
+      --btn-bg:      #E4D8CE;
+      --submit:      #9E8B65;
+      --submit-dark: #877450;
+      --tab-active:  #6B5E50;
+      --tab-bg:      #D6D0C8;
+      --font-serif:  'Playfair Display', Georgia, serif;
+      --font-sans:   'Jost', system-ui, sans-serif;
+      --max-w:       1100px;
+      --pad:         96px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body  { font-family: var(--font-sans); color: var(--text); background: var(--bg); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    img   { display: block; max-width: 100%; }
+    a     { color: inherit; text-decoration: none; }
+
+    /* ── HEADER ── */
+    #site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: 80px; display: flex; align-items: center; background: rgba(255,255,255,0); transition: background 0.4s, box-shadow 0.4s; }
+    #site-header.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(8px); box-shadow: 0 1px 24px rgba(44,32,22,0.08); }
+    .header-inner { max-width: var(--max-w); width: 100%; margin-inline: auto; padding-inline: 32px; display: flex; align-items: center; justify-content: space-between; }
+
+    /* Logo */
+    .logo-wrap { display: flex; flex-direction: column; align-items: flex-start; line-height: 1; gap: 1px; }
+    .logo-top { font-family: var(--font-sans); font-size: 0.58rem; font-weight: 400; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.75); transition: color 0.4s; }
+    .logo-main { font-family: var(--font-serif); font-size: 1.65rem; font-weight: 400; color: var(--white); transition: color 0.4s; line-height: 1; position: relative; }
+    .logo-main::before { content: "◆"; font-size: 0.45rem; color: var(--accent); position: absolute; left: 50%; transform: translateX(-50%); top: -6px; }
+    .logo-sub { font-family: var(--font-sans); font-size: 0.52rem; font-weight: 300; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.55); transition: color 0.4s; }
+    #site-header.scrolled .logo-top  { color: var(--text-mid); }
+    #site-header.scrolled .logo-main { color: var(--text); }
+    #site-header.scrolled .logo-main::before { color: var(--accent); }
+    #site-header.scrolled .logo-sub  { color: var(--text-light); }
+
+    /* Pill button */
+    .btn-pill { display: inline-flex; align-items: center; gap: 8px; padding: 10px 24px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.5); background: transparent; color: var(--white); font-family: var(--font-sans); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; cursor: pointer; transition: all 0.25s; }
+    .btn-pill:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.8); }
+    #site-header.scrolled .btn-pill { border-color: var(--accent); color: var(--text); background: var(--btn-bg); }
+    #site-header.scrolled .btn-pill:hover { background: var(--accent); color: var(--white); border-color: var(--accent); }
+
+    /* ── HERO ── */
+    #hero { position: relative; height: 100vh; min-height: 580px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('../asstes/hero.webp'); background-size: cover; background-position: center; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(28,20,12,0.28) 0%, rgba(28,20,12,0.45) 100%); }
+    .hero-content { position: relative; z-index: 2; text-align: center; padding: 0 24px; }
+    .hero-h1 { font-family: var(--font-serif); font-size: clamp(2.4rem, 6vw, 4.8rem); font-weight: 400; color: var(--white); line-height: 1.15; max-width: 820px; }
+    .hero-chevron { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 2; color: rgba(255,255,255,0.7); animation: bounce 2s ease-in-out infinite; cursor: pointer; }
+    .hero-chevron svg { width: 28px; height: 28px; }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)} }
+
+    /* ── INTRO ── */
+    #intro { background: var(--bg); padding: var(--pad) 24px; text-align: center; }
+    .intro-inner { max-width: 760px; margin-inline: auto; }
+    .intro-h2 { font-family: var(--font-serif); font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 400; color: var(--text); line-height: 1.25; margin-bottom: 28px; font-style: italic; }
+    .intro-text { font-size: 0.92rem; color: var(--text-mid); line-height: 1.9; margin-bottom: 18px; }
+
+    /* ── PHOTO STRIP ── */
+    #photo-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+    .strip-img { aspect-ratio: 3/4; overflow: hidden; }
+    .strip-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+    .strip-img:hover img { transform: scale(1.04); }
+
+    /* ── SPLIT SECTION ── */
+    .split-section { display: grid; grid-template-columns: 1fr 1fr; min-height: 480px; }
+    .split-section.reverse { direction: rtl; }
+    .split-section.reverse > * { direction: ltr; }
+    .split-img { overflow: hidden; position: relative; }
+    .split-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
+    .split-section:hover .split-img img { transform: scale(1.03); }
+    .split-body { background: var(--bg-alt); padding: 64px 56px; display: flex; flex-direction: column; justify-content: center; }
+    .split-tag { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--accent-dark); margin-bottom: 18px; }
+    .split-h3 { font-family: var(--font-serif); font-size: clamp(1.5rem, 2.5vw, 2.1rem); font-weight: 400; color: var(--text); line-height: 1.25; margin-bottom: 20px; font-style: italic; }
+    .split-text { font-size: 0.89rem; color: var(--text-mid); line-height: 1.85; margin-bottom: 14px; }
+
+    /* ── CTA CENTER ── */
+    .cta-center { background: var(--bg); padding: 64px 24px; text-align: center; }
+    .btn-pill-lg { display: inline-flex; align-items: center; padding: 14px 40px; border-radius: 50px; border: 1px solid var(--accent); background: var(--btn-bg); color: var(--text); font-family: var(--font-sans); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; cursor: pointer; transition: all 0.25s; }
+    .btn-pill-lg:hover { background: var(--accent); color: var(--white); border-color: var(--accent); }
+
+    /* ── RATINGS ── */
+    #ratings { background: var(--bg); padding: 56px 24px 80px; }
+    .ratings-inner { max-width: var(--max-w); margin-inline: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--tab-bg); }
+    .rating-col { background: var(--bg); padding: 40px 32px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .rating-star-icon { color: var(--text-mid); margin-bottom: 6px; }
+    .rating-star-icon svg { width: 32px; height: 32px; }
+    .rating-platform { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 400; color: var(--text); }
+    .rating-score-text { font-size: 0.88rem; color: var(--text-mid); font-weight: 300; }
+
+    /* ── FULLWIDTH IMAGE ── */
+    .fw-image { width: 100%; height: 420px; overflow: hidden; }
+    .fw-image img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+
+    /* ── TABS SECTION ── */
+    #tabs-section { background: var(--bg-alt); padding: var(--pad) 0; }
+    .tabs-inner { max-width: var(--max-w); margin-inline: auto; padding-inline: 32px; display: grid; grid-template-columns: 280px 1fr; gap: 0; }
+    .tab-buttons { display: flex; flex-direction: column; gap: 2px; }
+    .tab-btn { display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; background: var(--tab-bg); color: var(--text-mid); font-family: var(--font-sans); font-size: 0.82rem; font-weight: 400; letter-spacing: 0.06em; cursor: pointer; border: none; text-align: left; transition: background 0.2s, color 0.2s; }
+    .tab-btn.active { background: var(--tab-active); color: var(--white); }
+    .tab-btn:hover:not(.active) { background: #C8C0B4; }
+    .tab-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; flex-shrink: 0; transition: transform 0.3s; }
+    .tab-btn.active svg { transform: rotate(180deg); }
+    .tab-content-wrap { background: var(--white); padding: 48px 52px; }
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+    .tab-h3 { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 400; font-style: italic; color: var(--text); margin-bottom: 8px; }
+    .tab-sub { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-dark); margin-bottom: 24px; display: block; }
+    .tab-body-h4 { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 400; color: var(--text); margin-bottom: 8px; margin-top: 20px; }
+    .tab-body-p { font-size: 0.88rem; color: var(--text-mid); line-height: 1.85; margin-bottom: 10px; }
+    .tab-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+    .tab-list li { font-size: 0.86rem; color: var(--text-mid); line-height: 1.6; display: flex; gap: 10px; align-items: flex-start; }
+    .tab-list li::before { content: ""; width: 5px; height: 5px; min-width: 5px; border-radius: 50%; background: var(--accent); margin-top: 9px; }
+
+    /* ── FORM ── */
+    #anfrage { background: var(--bg); padding: var(--pad) 24px; }
+    .form-section-inner { max-width: var(--max-w); margin-inline: auto; }
+    .form-heading { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.6rem); font-weight: 400; color: var(--text); margin-bottom: 8px; line-height: 1.1; }
+    .form-subheading { font-size: 0.85rem; color: var(--text-light); margin-bottom: 48px; }
+    .form-card { background: var(--white); padding: 48px 52px; max-width: 780px; margin-inline: auto; box-shadow: 0 2px 40px rgba(44,32,22,0.07); border-radius: 2px; }
+
+    /* Form fields */
+    .f-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .f-full { grid-column: span 2; }
+    .f-field label { display: block; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; color: var(--text-mid); margin-bottom: 6px; }
+    .f-field label .req { color: var(--accent-dark); }
+    .f-field input,
+    .f-field select,
+    .f-field textarea { width: 100%; padding: 11px 14px; border: 1px solid #DDD8D0; border-radius: 0; font-size: 0.90rem; font-family: var(--font-sans); background: var(--white); color: var(--text); transition: border-color 0.2s; box-sizing: border-box; appearance: none; -webkit-appearance: none; }
+    .f-field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238C8070' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+    .f-field input:focus,
+    .f-field select:focus,
+    .f-field textarea:focus { border-color: var(--accent); outline: none; }
+    .f-field input.error,
+    .f-field select.error { border-color: #b94040 !important; }
+    .f-field .field-error { font-size: 0.74rem; color: #b94040; margin-top: 4px; display: none; }
+    .phone-row { display: flex; gap: 8px; }
+    .phone-row select { flex: 0 0 120px; }
+    .phone-row input { flex: 1; }
+    .child-age-field { display: none; }
+    .privacy-row { grid-column: span 2; display: flex; align-items: flex-start; gap: 10px; padding: 14px 16px; background: var(--bg); border: 1px solid #DDD8D0; }
+    .privacy-row input[type="checkbox"] { width: 17px; min-width: 17px; height: 17px; margin-top: 3px; cursor: pointer; accent-color: var(--accent-dark); }
+    .privacy-row label { font-size: 0.80rem; color: var(--text-light); cursor: pointer; line-height: 1.55; }
+    .privacy-row label a { color: var(--accent-dark); text-decoration: underline; }
+    .privacy-error { grid-column: span 2; font-size: 0.74rem; color: #b94040; margin-top: -8px; display: none; }
+    .submit-btn { grid-column: span 2; width: 100%; background: var(--submit); color: var(--white); padding: 15px; border: none; cursor: pointer; font-family: var(--font-sans); font-size: 0.84rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; margin-top: 8px; transition: background 0.2s; }
+    .submit-btn:hover { background: var(--submit-dark); }
+    .submit-btn:disabled { background: #C4B898; cursor: not-allowed; }
+    .success-msg { display: none; grid-column: span 2; background: #EEF5EC; border: 1px solid #A8CCA0; padding: 16px; color: #2E6028; font-size: 0.90rem; text-align: center; line-height: 1.6; }
+
+    /* ── GALLERY ── */
+    #gallery { background: var(--bg); padding: var(--pad) 24px; }
+    .gallery-inner { max-width: var(--max-w); margin-inline: auto; }
+    .gallery-heading { font-family: var(--font-serif); font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 400; color: var(--text); text-align: center; margin-bottom: 36px; font-style: italic; }
+    .gallery-filters { display: flex; gap: 4px; justify-content: center; margin-bottom: 28px; flex-wrap: wrap; }
+    .gal-filter-btn { padding: 9px 20px; background: var(--tab-bg); color: var(--text-mid); font-family: var(--font-sans); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.2s, color 0.2s; }
+    .gal-filter-btn.active,
+    .gal-filter-btn:hover { background: var(--tab-active); color: var(--white); }
+    .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+    .gal-item { overflow: hidden; position: relative; cursor: pointer; aspect-ratio: 1/1; }
+    .gal-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; display: block; }
+    .gal-item:hover img { transform: scale(1.05); }
+    .gal-item.hidden { display: none; }
+
+    /* ── FOOTER ── */
+    #footer { position: relative; padding: 80px 24px 40px; overflow: hidden; }
+    .footer-bg { position: absolute; inset: 0; background-image: url('../asstes/hero.webp'); background-size: cover; background-position: center 30%; filter: brightness(0.38); }
+    .footer-inner { position: relative; z-index: 2; max-width: 780px; margin-inline: auto; text-align: center; }
+    .footer-logo-top  { font-family: var(--font-sans); font-size: 0.60rem; font-weight: 400; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin-bottom: 4px; }
+    .footer-logo-main { font-family: var(--font-serif); font-size: 2.8rem; font-weight: 400; color: var(--white); line-height: 1; margin-bottom: 4px; position: relative; display: inline-block; }
+    .footer-logo-sub  { font-family: var(--font-sans); font-size: 0.58rem; font-weight: 300; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.50); margin-bottom: 36px; }
+    .footer-nav { display: flex; gap: 32px; justify-content: center; margin-bottom: 32px; flex-wrap: wrap; }
+    .footer-nav a { font-size: 0.80rem; color: rgba(255,255,255,0.65); letter-spacing: 0.06em; transition: color 0.2s; }
+    .footer-nav a:hover { color: var(--white); }
+    .footer-line { width: 100%; height: 1px; background: rgba(255,255,255,0.2); margin-bottom: 32px; }
+    .footer-contact { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .footer-contact-item { font-size: 0.82rem; color: rgba(255,255,255,0.65); line-height: 1.7; }
+    .footer-contact-item a { color: rgba(255,255,255,0.75); transition: color 0.2s; }
+    .footer-contact-item a:hover { color: var(--white); }
+    .footer-legal { font-size: 0.74rem; color: rgba(255,255,255,0.38); line-height: 1.7; }
+    .footer-seo { font-size: 0.68rem; color: rgba(255,255,255,0.15); line-height: 1.8; margin-top: 20px; }
+
+    /* ── KACHELN ACCORDION ── */
+    #kacheln { background: var(--bg); padding: var(--pad) 0 0; }
+    .kacheln-inner { max-width: var(--max-w); margin-inline: auto; padding-inline: 32px; }
+    .kacheln-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .kachel { cursor: pointer; position: relative; -webkit-tap-highlight-color: transparent; }
+    .kachel-img-wrap { aspect-ratio: 3/4; overflow: hidden; position: relative; }
+    .kachel-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; display: block; }
+    .kachel:hover .kachel-img-wrap img { transform: scale(1.04); }
+    .kachel-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,14,8,0.72) 0%, rgba(20,14,8,0.18) 65%); display: flex; align-items: flex-end; padding: 22px 20px; transition: background 0.3s; }
+    .kachel.active .kachel-overlay { background: linear-gradient(to top, rgba(20,14,8,0.84) 0%, rgba(20,14,8,0.28) 70%); }
+    .kachel-title { font-family: var(--font-serif); font-size: clamp(1.05rem, 1.8vw, 1.45rem); font-weight: 400; color: var(--white); line-height: 1.2; }
+    .kachel-text-wrap { grid-column: 1 / -1; max-height: 0; overflow: hidden; transition: max-height 0.5s ease; }
+    .kachel-text-wrap.open { max-height: 600px; }
+    .kachel-text-inner { background: var(--bg-alt); padding: 40px 48px; border-top: 2px solid var(--accent); }
+    .kachel-text-h4 { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; color: var(--text); margin-bottom: 16px; font-style: italic; }
+    .kachel-text-p { font-size: 0.89rem; color: var(--text-mid); line-height: 1.85; margin-bottom: 10px; }
+    .kachel-text-p:last-child { margin-bottom: 0; }
+
+    /* ── FADE IN ── */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .split-section { grid-template-columns: 1fr; }
+      .split-section.reverse { direction: ltr; }
+      .split-img { aspect-ratio: 16/9; }
+      .tabs-inner { grid-template-columns: 1fr; }
+      .tab-buttons { flex-direction: column; }
+      .tab-content-wrap { padding: 32px 28px; }
+      #photo-strip { grid-template-columns: repeat(2, 1fr); }
+      .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+      .footer-contact { grid-template-columns: 1fr; gap: 10px; }
+      .ratings-inner { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 768px) {
+      :root { --pad: 64px; }
+      .header-inner { padding-inline: 20px; }
+      .hero-h1 { font-size: 2rem; }
+      .split-body { padding: 40px 28px; }
+      .form-card { padding: 32px 24px; }
+      .f-grid { grid-template-columns: 1fr; }
+      .f-full, .privacy-row, .submit-btn, .success-msg, .privacy-error { grid-column: span 1; }
+      .gallery-filters { gap: 2px; }
+      .footer-nav { gap: 20px; }
+      .form-heading { font-size: 2.2rem; }
+      .fw-image { height: 280px; }
+      /* Kacheln: 1 colonna */
+      .kacheln-grid { grid-template-columns: 1fr; gap: 6px; }
+      .kachel-text-wrap { grid-column: 1; }
+      .kacheln-grid > *:nth-child(1) { order: 1; }
+      .kacheln-grid > *:nth-child(2) { order: 3; }
+      .kacheln-grid > *:nth-child(3) { order: 5; }
+      .kacheln-grid > *:nth-child(4) { order: 2; }
+      .kacheln-grid > *:nth-child(5) { order: 4; }
+      .kacheln-grid > *:nth-child(6) { order: 6; }
+      .kachel-img-wrap { aspect-ratio: 16/9; }
+      .kachel-text-inner { padding: 28px 24px; }
+      /* Galleria come slider orizzontale */
+      .gallery-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; gap: 6px; padding-bottom: 10px; }
+      .gallery-grid::-webkit-scrollbar { height: 3px; }
+      .gallery-grid::-webkit-scrollbar-track { background: var(--bg); }
+      .gallery-grid::-webkit-scrollbar-thumb { background: var(--tab-bg); border-radius: 2px; }
+      .gal-item { flex: 0 0 72vw; scroll-snap-align: start; aspect-ratio: 3/4 !important; }
+      .kachel-text-wrap.open { max-height: 800px; }
+    }
+    @media (max-width: 480px) {
+      :root { --pad: 48px; }
+      .gallery-filters { justify-content: flex-start; }
+      .logo-main { font-size: 1.35rem; }
+      .btn-pill { padding: 9px 16px; font-size: 0.65rem; }
+      .gal-item { flex: 0 0 82vw; }
+      .kacheln-inner { padding-inline: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BJVQ69F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ── HEADER ── -->
+<header id="site-header">
+  <div class="header-inner">
+    <a href="#hero" aria-label="Historic Guesthouse Der Bircher">
+      <div class="logo-wrap">
+        <span class="logo-top">Historic Guesthouse</span>
+        <span class="logo-main">bircher</span>
+        <span class="logo-sub">with all senses</span>
+      </div>
+    </a>
+    <a href="#anfrage" class="btn-pill">Verifica disponibilità</a>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-h1">Appartamento a Vipiteno &amp;<br>Campo di Trens</h1>
+  </div>
+  <a href="#intro" class="hero-chevron" aria-label="Scorri verso il basso">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</section>
+
+<!-- ── INTRO ── -->
+<section id="intro">
+  <div class="intro-inner fade-in">
+    <h2 class="intro-h2">Il vostro dimora storica per soggiorni<br>raffinati a Vipiteno, Alto Adige</h2>
+    <p class="intro-text">In alto sulla Valle Isarco meridionale a 995 m s.l.m., nel tranquillo paese di Maria Trens, nel comune di Campo di Trens, il Historic Guesthouse Bircher vi accoglie – una pensione curata con amore che unisce fascino storico e comfort moderno. Rilassatevi in un <strong>appartamento a Campo di Trens vicino Vipiteno</strong>, caratterizzato da caldo legno, dettagli di design e una terrazza panoramica mozzafiato.</p>
+    <p class="intro-text">Che stiate cercando un <strong>alloggio nei dintorni di Vipiteno</strong> o pianificando una vacanza rilassante in Alta Valle Isarco: respirate aria montana pura e partite direttamente dalla porta per vivere esperienze come la pista ciclabile della Val d'Isarco o il Rosskopf. Il centro storico medievale di Vipiteno è a pochi minuti dal vostro appartamento.</p>
+  </div>
+</section>
+
+<!-- ── KACHELN ACCORDION ── -->
+<section id="kacheln">
+  <div class="kacheln-inner">
+    <div class="kacheln-grid">
+
+      <!-- Tile 1: Vacanze con il cane -->
+      <div class="kachel active" data-kachel="0">
+        <div class="kachel-img-wrap">
+          <img src="../asstes/kachel_1_hund.webp" alt="Vacanze con il cane Alto Adige – Appartamento Vipiteno" loading="lazy" />
+          <div class="kachel-overlay">
+            <h3 class="kachel-title">Vacanze con il cane<br>Alto Adige</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tile 2: L'alternativa esclusiva all'hotel -->
+      <div class="kachel" data-kachel="1">
+        <div class="kachel-img-wrap">
+          <img src="../asstes/kachel_2_hotelalternative.jpg" alt="L'alternativa esclusiva all'hotel – Campo di Trens vicino Vipiteno" loading="lazy" />
+          <div class="kachel-overlay">
+            <h3 class="kachel-title">L'alternativa esclusiva<br>all'hotel</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tile 3: Vivere a Vipiteno -->
+      <div class="kachel" data-kachel="2">
+        <div class="kachel-img-wrap">
+          <img src="../asstes/kachel_3.jpg" alt="Vivere a Vipiteno – Appartamento Campo di Trens" loading="lazy" />
+          <div class="kachel-overlay">
+            <h3 class="kachel-title">Vivere a Vipiteno</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Text 1 -->
+      <div class="kachel-text-wrap open" id="kachel-text-0">
+        <div class="kachel-text-inner">
+          <h4 class="kachel-text-h4">Vacanze con il cane in Alto Adige: appartamento a Vipiteno con il vostro amico a quattro zampe</h4>
+          <p class="kachel-text-p">Godetevi le vostre <strong>vacanze con il cane in Alto Adige</strong> al Historic Guesthouse Bircher vicino Vipiteno. I nostri appartamenti pet-friendly nell'Alta Valle Isarco sono perfettamente preparati per gli ospiti con animali – perché da noi il vostro cane fa parte della famiglia. Una comoda cuccia, ciotole e acqua fresca vi aspettano già al vostro arrivo.</p>
+          <p class="kachel-text-p">La vostra vacanza con il cane nell'Alta Valle Isarco inizia direttamente fuori dalla porta: passeggiate ed escursioni vi portano tra i prati fioriti e i boschi intorno a Campo di Trens. Scoprire la natura insieme, godersi la pace e ammirare le Alpi dello Stubai – così può essere rilassante una vacanza con il cane vicino Vipiteno.</p>
+        </div>
+      </div>
+
+      <!-- Accordion Text 2 -->
+      <div class="kachel-text-wrap" id="kachel-text-1">
+        <div class="kachel-text-inner">
+          <h4 class="kachel-text-h4">L'alternativa esclusiva all'hotel a Campo di Trens vicino Vipiteno</h4>
+          <p class="kachel-text-p">Cercate un hotel a Campo di Trens in Alto Adige o un <strong>alloggio vicino Vipiteno</strong>? Al Historic Guesthouse Bircher godete di più libertà rispetto a un hotel classico. I nostri eleganti <strong>appartamenti nell'Alta Valle Isarco</strong> uniscono comfort, privacy e flessibilità – ideale anche per una sosta di qualità grazie al check-in h24.</p>
+          <p class="kachel-text-p">Letti accoglienti, cucina moderna e parcheggio gratuito vi aspettano. Che si tratti di un hotel a Campo di Trens o di un <strong>appartamento vicino Vipiteno</strong> – da noi vivrete il meglio di entrambi i mondi. Al mattino, nel "moidls lokäischn" vi aspetta una ricca colazione a buffet – il perfetto inizio per la vostra vacanza in Alta Valle Isarco.</p>
+        </div>
+      </div>
+
+      <!-- Accordion Text 3 -->
+      <div class="kachel-text-wrap" id="kachel-text-2">
+        <div class="kachel-text-inner">
+          <h4 class="kachel-text-h4">Vivere &amp; benessere: il vostro appartamento a Vipiteno e dintorni</h4>
+          <p class="kachel-text-p">I nostri luminosi <strong>appartamenti a Campo di Trens vicino Vipiteno</strong> offrono 45–70 m² per 2–6 persone. Travi in legno amorevolmente conservate si incontrano con il comfort moderno: cucina attrezzata, Smart TV e Wi-Fi gratuito – la perfetta alternativa a una <strong>casa vacanze vicino Vipiteno</strong>. Ampie finestre su balconi e terrazze panoramiche aprono la vista sull'Alta Valle Isarco.</p>
+          <p class="kachel-text-p">Che si tratti di un rifugio romantico per coppie o di una vacanza rilassante per famiglie – qui si fondono tranquillità, natura e ospitalità altoatesina. Nel nostro caffè "moidls lokäischn" offriamo ai nostri ospiti anche caffè e torte gratuite nel pomeriggio.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SPLIT: Pet-friendly ── -->
+<div class="split-section">
+  <div class="split-img">
+    <img src="../asstes/hero.webp" alt="Vacanze con il cane Alto Adige – Guesthouse Der Bircher Campo di Trens" loading="lazy" />
+  </div>
+  <div class="split-body fade-in">
+    <span class="split-tag">Vacanze con il cane · Alto Adige · Alta Valle Isarco</span>
+    <h3 class="split-h3">Appartamento a Vipiteno<br>con il vostro cane</h3>
+    <p class="split-text">Godetevi le vostre <strong>vacanze con il cane in Alto Adige</strong> al Historic Guesthouse Bircher vicino Vipiteno. I nostri appartamenti pet-friendly nell'Alta Valle Isarco sono perfettamente preparati per gli ospiti con animali – perché da noi il vostro cane fa parte della famiglia.</p>
+    <p class="split-text">Una comoda cuccia, ciotole e acqua fresca vi aspettano già al vostro arrivo. La vostra vacanza con il cane nell'Alta Valle Isarco inizia direttamente fuori dalla porta: passeggiate ed escursioni attraverso i prati fioriti e i boschi intorno a Campo di Trens.</p>
+  </div>
+</div>
+
+<!-- ── SPLIT: Alternativa all'hotel ── -->
+<div class="split-section reverse">
+  <div class="split-img">
+    <img src="../asstes/kachel_2_hotelalternative.jpg" alt="Appartamento Vipiteno – alternativa esclusiva all'hotel Campo di Trens" loading="lazy" />
+  </div>
+  <div class="split-body fade-in">
+    <span class="split-tag">Appartamento Vipiteno · Alta Valle Isarco · Alto Adige</span>
+    <h3 class="split-h3">L'alternativa esclusiva all'hotel<br>a Campo di Trens vicino Vipiteno</h3>
+    <p class="split-text">Cercate un hotel a Campo di Trens o un <strong>alloggio vicino Vipiteno</strong>? Al Historic Guesthouse Bircher godete di più libertà rispetto a un hotel classico. I nostri eleganti <strong>appartamenti nell'Alta Valle Isarco</strong> uniscono comfort, privacy e flessibilità – ideale anche per soste di qualità con check-in h24.</p>
+    <p class="split-text">Appartamenti luminosi di 45–70 m² per 2–6 persone. Travi in legno conservate con amore, comfort moderno con cucina, Smart TV e Wi-Fi gratuito. Al mattino nel "moidls lokäischn" vi aspetta una ricca colazione a buffet.</p>
+  </div>
+</div>
+
+<!-- ── CTA ── -->
+<div class="cta-center">
+  <a href="#anfrage" class="btn-pill-lg">Richiedi ora!</a>
+</div>
+
+<!-- ── RATINGS ── -->
+<section id="ratings">
+  <div class="ratings-inner fade-in">
+    <div class="rating-col">
+      <div class="rating-star-icon">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M16 9l1.8 5.5H23l-4.6 3.3 1.8 5.5L16 20l-4.2 3.3 1.8-5.5L9 14.5h5.2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="rating-platform">Booking.com</div>
+      <div class="rating-score-text">Eccezionale 9.6</div>
+    </div>
+    <div class="rating-col">
+      <div class="rating-star-icon">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M16 9l1.8 5.5H23l-4.6 3.3 1.8 5.5L16 20l-4.2 3.3 1.8-5.5L9 14.5h5.2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="rating-platform">Holidaycheck</div>
+      <div class="rating-score-text">Eccellente 5.9 / 6</div>
+    </div>
+    <div class="rating-col">
+      <div class="rating-star-icon">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M16 9l1.8 5.5H23l-4.6 3.3 1.8 5.5L16 20l-4.2 3.3 1.8-5.5L9 14.5h5.2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="rating-platform">Google</div>
+      <div class="rating-score-text">4.8 / 5</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FULLWIDTH IMAGE ── -->
+<div class="fw-image">
+  <img src="../asstes/bild_nach_kacheln.jpg" alt="Historic Guesthouse Der Bircher – Campo di Trens vicino Vipiteno" loading="lazy" />
+</div>
+
+<!-- ── TABS / INFO ── -->
+<section id="tabs-section">
+  <div class="tabs-inner">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="lage">
+        Posizione &amp; Arrivo
+        <svg viewBox="0 0 14 14"><polyline points="2,4 7,9 12,4"/></svg>
+      </button>
+      <button class="tab-btn" data-tab="inklusive">
+        Servizi inclusi
+        <svg viewBox="0 0 14 14"><polyline points="2,4 7,9 12,4"/></svg>
+      </button>
+      <button class="tab-btn" data-tab="sterzing-card">
+        SterzingCard
+        <svg viewBox="0 0 14 14"><polyline points="2,4 7,9 12,4"/></svg>
+      </button>
+      <button class="tab-btn" data-tab="fruehstueck">
+        Colazione &amp; Servizi
+        <svg viewBox="0 0 14 14"><polyline points="2,4 7,9 12,4"/></svg>
+      </button>
+      <button class="tab-btn" data-tab="infos">
+        Informazioni utili
+        <svg viewBox="0 0 14 14"><polyline points="2,4 7,9 12,4"/></svg>
+      </button>
+    </div>
+
+    <div class="tab-content-wrap">
+
+      <!-- Posizione -->
+      <div class="tab-pane active" id="tab-lage">
+        <span class="tab-sub">Campo di Trens · Vipiteno · Alta Valle Isarco</span>
+        <h3 class="tab-h3">Come raggiungerci</h3>
+        <div class="tab-body-h4">In auto:</div>
+        <p class="tab-body-p">Dal Brennero, prendete l'A22 direzione Bolzano/Trento e uscite a <strong>Vipiteno/Campo di Trens</strong>. Parcheggio gratuito direttamente presso la struttura. Da Bolzano il percorso dura circa 45 minuti, da Innsbruck circa 30 minuti.</p>
+        <div class="tab-body-h4">In treno e autobus:</div>
+        <p class="tab-body-p">Prendete il treno fino alla stazione di <strong>Vipiteno</strong>. Da lì l'autobus regionale (linea 310) vi porta in circa 10 minuti direttamente a Campo di Trens.</p>
+        <div class="tab-body-h4">Posizione:</div>
+        <p class="tab-body-p">Der Bircher si trova a Campo di Trens, circondato da ampi prati e frutteti con vista libera sulle Dolomiti. Vipiteno (5 km) e Stilves (3 km) sono facilmente raggiungibili – il punto di partenza ideale per escursioni a piedi, in bici e tour alla scoperta della Val d'Isarco.</p>
+      </div>
+
+      <!-- Servizi inclusi -->
+      <div class="tab-pane" id="tab-inklusive">
+        <span class="tab-sub">Tutto incluso – senza costi aggiuntivi</span>
+        <h3 class="tab-h3">Servizi inclusi</h3>
+        <ul class="tab-list">
+          <li>ActiveCard / SterzingCard – tutti i trasporti pubblici &amp; funivie in Alto Adige gratuiti</li>
+          <li>Utilizzo gratuito del Golf Club di Vipiteno (struttura convenzionata)</li>
+          <li>Biancheria da letto fresca, asciugamani da bagno &amp; articoli da toilette all'arrivo</li>
+          <li>Wi-Fi gratuito in tutta la struttura</li>
+          <li>2 televisori per appartamento &amp; impianto audio</li>
+          <li>Cucina completamente attrezzata (fornelli, frigorifero, macchina del caffè, bollitore, stoviglie)</li>
+          <li>Servizio frigorifero – prodotti dal nostro negozio direttamente in appartamento</li>
+          <li>Servizio in camera &amp; pulizia finale</li>
+          <li>Lavanderia per gli ospiti (lavatrice, asciugatrice, ferro da stiro)</li>
+          <li>Parcheggio gratuito direttamente presso la struttura; box auto su richiesta</li>
+        </ul>
+      </div>
+
+      <!-- SterzingCard -->
+      <div class="tab-pane" id="tab-sterzing-card">
+        <span class="tab-sub">Gratuita per tutti gli ospiti</span>
+        <h3 class="tab-h3">SterzingCard</h3>
+        <p class="tab-body-p">Come ospiti del Der Bircher ricevete la SterzingCard <strong>gratuitamente</strong>. Questa esclusiva carta vantaggi vi permette di scoprire l'Alto Adige in modo flessibile e senza costi aggiuntivi.</p>
+        <div class="tab-body-h4">Servizi inclusi:</div>
+        <ul class="tab-list">
+          <li>Treni regionali gratuiti tra Brennero e Trento</li>
+          <li>Autobus locali in tutto l'Alto Adige gratuiti</li>
+          <li>Funivie gratuite: Renon, Meransen, San Genesio, Meltina, Verano &amp; Colle</li>
+          <li>Ferrovia del Renon &amp; Funivia del Mendola gratuite</li>
+          <li>Ingresso libero in oltre <strong>90 musei</strong> in tutto l'Alto Adige</li>
+        </ul>
+        <div class="tab-body-h4">Riduzioni &amp; extra:</div>
+        <ul class="tab-list">
+          <li>Ingresso ridotto a piscine, giardini &amp; attrazioni selezionate</li>
+          <li>Prezzi speciali per noleggio bici, degustazioni &amp; tour guidati (stagionale)</li>
+        </ul>
+        <p class="tab-body-p" style="font-style:italic;color:var(--accent-dark);margin-top:14px;">La card è valida per tutta la durata del vostro soggiorno.</p>
+      </div>
+
+      <!-- Colazione -->
+      <div class="tab-pane" id="tab-fruehstueck">
+        <span class="tab-sub">Nel moidls lokäischn</span>
+        <h3 class="tab-h3">Colazione &amp; Servizi</h3>
+        <p class="tab-body-p">Orario colazione: <strong>7:30–10:00</strong> nel "moidls lokäischn" – o su richiesta come cestino della colazione in appartamento.</p>
+        <div class="tab-body-h4">Buffet:</div>
+        <ul class="tab-list">
+          <li>Pane fresco &amp; croissant</li>
+          <li>Affettati &amp; formaggi regionali tipici</li>
+          <li>Frutta, yogurt &amp; müsli</li>
+          <li>Succhi, caffè &amp; tè</li>
+          <li>Specialità fatte in casa: miele, marmellate &amp; composte di produzione propria</li>
+        </ul>
+        <p class="tab-body-p">Richieste particolari (vegetariano, senza glutine ecc.) volentieri su prenotazione. Nel pomeriggio offriamo ai nostri ospiti anche caffè e torte gratuite nel moidls lokäischn.</p>
+      </div>
+
+      <!-- Informazioni utili -->
+      <div class="tab-pane" id="tab-infos">
+        <span class="tab-sub">Informazioni importanti</span>
+        <h3 class="tab-h3">Informazioni utili</h3>
+        <div class="tab-body-h4">Check-in / Check-out:</div>
+        <ul class="tab-list">
+          <li>Check-in: dalle 15:00 (check-in h24 disponibile)</li>
+          <li>Check-out: entro le 11:00</li>
+          <li>Soggiorno minimo: 1 notte</li>
+          <li>Tassa di soggiorno: €2,50 a persona/notte (dai 14 anni)</li>
+        </ul>
+        <div class="tab-body-h4">Condizioni di cancellazione:</div>
+        <ul class="tab-list">
+          <li>Fino a 21 giorni prima dell'arrivo: gratuita (meno €10 spese di gestione sulla caparra)</li>
+          <li>Meno di 21 giorni: 30% del costo totale</li>
+          <li>Il giorno dell'arrivo / mancata presentazione: 100% del costo totale</li>
+          <li>Partenza anticipata: 100% del costo totale</li>
+          <li>Sono accettate solo cancellazioni scritte</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section id="gallery">
+  <div class="gallery-inner">
+    <h2 class="gallery-heading fade-in">Immagini del Der Bircher</h2>
+    <div class="gallery-filters">
+      <button class="gal-filter-btn active" data-filter="all">Tutte</button>
+      <button class="gal-filter-btn" data-filter="ferienwohnungen">Appartamenti</button>
+      <button class="gal-filter-btn" data-filter="aussenbereich">Esterni</button>
+      <button class="gal-filter-btn" data-filter="sonstige">Altro</button>
+    </div>
+    <div class="gallery-grid">
+      <!-- Appartamenti -->
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/105WohnraummitKueche-3j42x4tDyZg2DcrmLDlo4g.jpg" alt="Soggiorno con cucina – Appartamento 105" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/103DuscheimZimmer-o8yDczzHjvCqr8myuAW0bA.jpg" alt="Doccia in camera – Appartamento 103" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/211Lodge-rOJMW4-MiFek58SRqioRIA.jpg" alt="Appartamento Lodge 211" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/211Bad-khu9j8L7crtIx4tXVKGYtQ.jpg" alt="Bagno Appartamento 211" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="ferienwohnungen">
+        <img src="../asstes/galerie/213Bad-NSHfFhTGhFSrrWO7wvw7jA.jpg" alt="Bagno Appartamento 213" loading="lazy" />
+      </div>
+      <!-- Esterni -->
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/DSC01307-zMsguLoRoAHLOGPILoYaJw.jfif" alt="Vista esterna Der Bircher Campo di Trens" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/DSC09449-cOXHuMwiNzLelPeTNFsYLw.jfif" alt="Panorama Alta Valle Isarco" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="aussenbereich">
+        <img src="../asstes/galerie/Garten3-OQuWH56mKJTbkXZxQegLng.jpg" alt="Giardino Guesthouse Der Bircher" loading="lazy" />
+      </div>
+      <!-- Altro -->
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/20220920_070140-ZaKpFQeOgxUAqNI0GvYDXw.jpg" alt="Vista Alta Valle Isarco Campo di Trens" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/DSC09992-wo_7N_LVIpAUFk54XMK64g.jfif" alt="Paesaggio Alta Valle Isarco Vipiteno" loading="lazy" />
+      </div>
+      <div class="gal-item" data-cat="sonstige">
+        <img src="../asstes/galerie/IMG_0468-ov2pYe9c-iaefDOH_x4otQ.jpg" alt="Campo di Trens Alto Adige" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FORM ── -->
+<section id="anfrage">
+  <div class="form-section-inner fade-in">
+    <h2 class="form-heading">Richiedi la tua vacanza da sogno</h2>
+    <p class="form-subheading">Pronti per una vacanza indimenticabile in Alto Adige?</p>
+
+    <div class="form-card">
+      <form id="bookingForm" class="f-grid" novalidate>
+        <div class="f-field">
+          <label for="ankunft">Arrivo <span class="req">*</span></label>
+          <input type="text" id="ankunft" placeholder="gg.mm.aaaa" required />
+          <div class="field-error" id="errAnkunft">Selezionare la data di arrivo.</div>
+        </div>
+        <div class="f-field">
+          <label for="abreise">Partenza <span class="req">*</span></label>
+          <input type="text" id="abreise" placeholder="gg.mm.aaaa" required />
+          <div class="field-error" id="errAbreise">Selezionare la data di partenza.</div>
+        </div>
+        <div class="f-field">
+          <label for="erwachsene">Adulti</label>
+          <select id="erwachsene">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="f-field">
+          <label for="kCount">Bambini</label>
+          <select id="kCount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div id="k1" class="child-age-field f-field"><label>Età bambino 1 <span class="req">*</span></label><input type="number" name="alter_k1" min="0" max="17" /></div>
+        <div id="k2" class="child-age-field f-field"><label>Età bambino 2 <span class="req">*</span></label><input type="number" name="alter_k2" min="0" max="17" /></div>
+        <div id="k3" class="child-age-field f-field"><label>Età bambino 3 <span class="req">*</span></label><input type="number" name="alter_k3" min="0" max="17" /></div>
+        <div id="k4" class="child-age-field f-field"><label>Età bambino 4 <span class="req">*</span></label><input type="number" name="alter_k4" min="0" max="17" /></div>
+        <div id="k5" class="child-age-field f-field"><label>Età bambino 5 <span class="req">*</span></label><input type="number" name="alter_k5" min="0" max="17" /></div>
+        <div class="f-field">
+          <label for="vorname">Nome <span class="req">*</span></label>
+          <input type="text" id="vorname" required />
+          <div class="field-error" id="errVorname">Inserire il nome.</div>
+        </div>
+        <div class="f-field">
+          <label for="nachname">Cognome <span class="req">*</span></label>
+          <input type="text" id="nachname" required />
+          <div class="field-error" id="errNachname">Inserire il cognome.</div>
+        </div>
+        <div class="f-field f-full">
+          <label for="email">E-mail <span class="req">*</span></label>
+          <input type="email" id="email" required />
+          <div class="field-error" id="errEmail">Inserire un indirizzo e-mail valido.</div>
+        </div>
+        <div class="f-field f-full">
+          <label>Telefono <span class="req">*</span></label>
+          <div class="phone-row">
+            <select id="phonePrefix">
+              <option value="0039" selected>🇮🇹 +39</option>
+              <option value="0043">🇦🇹 +43</option>
+              <option value="0049">🇩🇪 +49</option>
+              <option value="0041">🇨🇭 +41</option>
+              <option value="0031">🇳🇱 +31</option>
+              <option value="0032">🇧🇪 +32</option>
+              <option value="0033">🇫🇷 +33</option>
+              <option value="0044">🇬🇧 +44</option>
+              <option value="0048">🇵🇱 +48</option>
+              <option value="0045">🇩🇰 +45</option>
+              <option value="0046">🇸🇪 +46</option>
+              <option value="0047">🇳🇴 +47</option>
+              <option value="00420">🇨🇿 +420</option>
+              <option value="001">🇺🇸 +1</option>
+            </select>
+            <input type="tel" id="phoneNumber" placeholder="333 123 4567" inputmode="numeric" pattern="[0-9 ]*" />
+          </div>
+          <div class="field-error" id="errTelefon">Inserire il numero di telefono.</div>
+        </div>
+        <div class="f-field f-full">
+          <label for="nachricht">Messaggio (opzionale)</label>
+          <textarea id="nachricht" rows="3" placeholder="Richieste particolari, vacanze con il cane, domande sull'appartamento…"></textarea>
+        </div>
+        <div class="privacy-row">
+          <input type="checkbox" id="privacy" required />
+          <label for="privacy">Ho letto l'<a href="https://www.der-bircher.it/it/privacy" target="_blank">informativa sulla privacy</a> e acconsento al trattamento dei miei dati per l'elaborazione della mia richiesta. *</label>
+        </div>
+        <div class="privacy-error" id="errPrivacy">Accettare l'informativa sulla privacy.</div>
+        <div class="success-msg" id="successMsg">&#10003; Grazie! La sua richiesta &egrave; stata inviata con successo. La contatteremo il prima possibile.</div>
+        <button type="submit" class="submit-btn" id="sBtn">Invia richiesta senza impegno</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer id="footer">
+  <div class="footer-bg"></div>
+  <div class="footer-inner">
+    <div class="footer-logo-top">Historic Guesthouse</div>
+    <div class="footer-logo-main">bircher</div>
+    <div class="footer-logo-sub">with all senses</div>
+    <nav class="footer-nav">
+      <a href="https://www.der-bircher.it/it/privacy" target="_blank">Cookie</a>
+      <a href="https://www.der-bircher.it/it/privacy" target="_blank">Privacy</a>
+      <a href="https://www.der-bircher.it/it/impressum" target="_blank">Note legali</a>
+    </nav>
+    <div class="footer-line"></div>
+    <div class="footer-contact">
+      <div class="footer-contact-item">Via Innocenza Barat 1<br>39040 Campo di Trens (BZ)</div>
+      <div class="footer-contact-item"><a href="mailto:info@der-bircher.it">info@der-bircher.it</a></div>
+      <div class="footer-contact-item"><a href="tel:+390472647122">Tel: +39 0472 647 122</a></div>
+    </div>
+    <div class="footer-legal">
+      Gasthof Bircher der Mayr Margit &amp; Co. KG &nbsp;|&nbsp; P.IVA 01509960215 &nbsp;|&nbsp; CIN: IT021016A1YUTXXOFC
+    </div>
+    <div class="footer-seo">Appartamento Vipiteno · Alloggio Vipiteno · Appartamento Alta Valle Isarco · Appartamento Campo di Trens · Vacanze con il cane Alto Adige · Guesthouse Vipiteno</div>
+  </div>
+</footer>
+
+<script>
+// ── HEADER SCROLL ──
+(function(){
+  var h = document.getElementById('site-header');
+  window.addEventListener('scroll', function(){ h.classList.toggle('scrolled', window.scrollY > 60); }, {passive:true});
+})();
+
+// ── FADE-IN OBSERVER ──
+(function(){
+  var els = document.querySelectorAll('.fade-in');
+  if(!window.IntersectionObserver){ els.forEach(function(e){ e.classList.add('visible'); }); return; }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, {threshold:0.1});
+  els.forEach(function(el){ obs.observe(el); });
+})();
+
+// ── KACHELN ACCORDION ──
+(function(){
+  var kacheln = document.querySelectorAll('.kachel');
+  kacheln.forEach(function(k){
+    k.addEventListener('click', function(){
+      var idx = k.dataset.kachel;
+      var isActive = k.classList.contains('active');
+      kacheln.forEach(function(kk){ kk.classList.remove('active'); });
+      document.querySelectorAll('.kachel-text-wrap').forEach(function(t){ t.classList.remove('open'); });
+      if(!isActive){
+        k.classList.add('active');
+        var panel = document.getElementById('kachel-text-' + idx);
+        if(panel) panel.classList.add('open');
+      }
+    });
+  });
+})();
+
+// ── TABS ──
+(function(){
+  var btns = document.querySelectorAll('.tab-btn');
+  var panes = document.querySelectorAll('.tab-pane');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      panes.forEach(function(p){ p.classList.remove('active'); });
+      btn.classList.add('active');
+      var target = document.getElementById('tab-' + btn.dataset.tab);
+      if(target) target.classList.add('active');
+    });
+  });
+})();
+
+// ── GALLERY FILTER ──
+(function(){
+  var filterBtns = document.querySelectorAll('.gal-filter-btn');
+  var items = document.querySelectorAll('.gal-item');
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.dataset.filter;
+      items.forEach(function(item){
+        if(filter === 'all' || item.dataset.cat === filter){
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+})();
+
+// ── FORM ──
+document.addEventListener("DOMContentLoaded", function(){
+  var API_URL    = "https://dashboard.outofthebox-media.com/api/lead";
+  var HOTEL_SLUG = "fwg-der-bircher";
+  var UTM_KEY    = "guestflow_utm";
+
+  (function captureUtm(){
+    var p=new URLSearchParams(window.location.search),src=p.get("utm_source")||"",med=p.get("utm_medium")||"",gcl=p.get("gclid")||"";
+    if(src||med||gcl){
+      var content=p.get("utm_content")||"",device="";
+      if(content.indexOf("_")!==-1) device=content.substring(content.lastIndexOf("_")+1);
+      try{localStorage.setItem(UTM_KEY,JSON.stringify({utm_source:src,utm_medium:med,utm_campaign:p.get("utm_campaign")||"",utm_term:p.get("utm_term")||"",utm_content:content,device:device,gclid:gcl,gad_source:p.get("gad_source")||"",gad_campaignid:p.get("gad_campaignid")||""}));}catch(e){}
+    }
+  })();
+  function getUtm(){try{return JSON.parse(localStorage.getItem(UTM_KEY)||"{}");}catch(e){return{};}}
+
+  var aP = flatpickr("#ankunft",{locale:"it",dateFormat:"d.m.Y",minDate:"today",onChange:function(d){
+    if(!d[0])return;
+    var next=new Date(d[0]); next.setDate(next.getDate()+1);
+    bP.set("minDate",next);
+    if(!bP.selectedDates[0]||bP.selectedDates[0]<=d[0]) bP.setDate(next);
+  }});
+  var bP = flatpickr("#abreise",{locale:"it",dateFormat:"d.m.Y",minDate:"today"});
+
+  document.getElementById("kCount").addEventListener("change",function(){
+    var n=parseInt(this.value);
+    for(var i=1;i<=5;i++){
+      var f=document.getElementById("k"+i);
+      var inp=f.querySelector("input");
+      if(i<=n){f.style.display="block";inp.required=true;}
+      else{f.style.display="none";inp.required=false;inp.value="";}
+    }
+  });
+
+  document.getElementById("phoneNumber").addEventListener("input",function(){
+    this.value=this.value.replace(/[^0-9 ]/g,"");
+  });
+
+  function buildPhone(){
+    var prefix=document.getElementById("phonePrefix").value;
+    var number=document.getElementById("phoneNumber").value.replace(/\s/g,"").replace(/^0+/,"");
+    return prefix+number;
+  }
+  function toIso(raw){
+    if(!raw)return"";
+    var m=raw.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+    if(m)return m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0");
+    return raw;
+  }
+  function showErr(id,show){var el=document.getElementById(id);if(el)el.style.display=show?"block":"none";}
+  function markErr(id,err){var el=document.getElementById(id);if(el)el.classList.toggle("error",err);}
+
+  function validate(){
+    var ok=true;
+    var a=document.getElementById("ankunft").value; showErr("errAnkunft",!a); markErr("ankunft",!a); if(!a)ok=false;
+    var b=document.getElementById("abreise").value; showErr("errAbreise",!b); markErr("abreise",!b); if(!b)ok=false;
+    var vn=document.getElementById("vorname").value.trim(); showErr("errVorname",!vn); markErr("vorname",!vn); if(!vn)ok=false;
+    var nn=document.getElementById("nachname").value.trim(); showErr("errNachname",!nn); markErr("nachname",!nn); if(!nn)ok=false;
+    var em=document.getElementById("email").value.trim(); var eo=em&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em); showErr("errEmail",!eo); markErr("email",!eo); if(!eo)ok=false;
+    var ph=document.getElementById("phoneNumber").value.replace(/\s/g,""); showErr("errTelefon",!ph); document.getElementById("phoneNumber").classList.toggle("error",!ph); if(!ph)ok=false;
+    var kinder=parseInt(document.getElementById("kCount").value)||0;
+    for(var i=1;i<=kinder;i++){var ai=document.querySelector("[name='alter_k"+i+"']");var ao=ai&&ai.value!==""&&parseInt(ai.value)>=0;if(ai)ai.classList.toggle("error",!ao);if(!ao)ok=false;}
+    var priv=document.getElementById("privacy").checked; showErr("errPrivacy",!priv); if(!priv)ok=false;
+    return ok;
+  }
+
+  document.getElementById("bookingForm").addEventListener("submit",function(e){
+    e.preventDefault(); if(!validate())return;
+    var btn=document.getElementById("sBtn"); btn.innerText="Invio in corso…"; btn.disabled=true;
+    var kinder=parseInt(document.getElementById("kCount").value)||0,ages=[];
+    for(var i=1;i<=kinder;i++){var v=document.querySelector("[name='alter_k"+i+"']");if(v&&v.value!=="")ages.push(v.value);}
+    var utm=getUtm();
+    var payload={hotel_slug:HOTEL_SLUG,firstname:document.getElementById("vorname").value.trim(),lastname:document.getElementById("nachname").value.trim(),email:document.getElementById("email").value.trim(),phone:buildPhone(),checkin:toIso(document.getElementById("ankunft").value),checkout:toIso(document.getElementById("abreise").value),adults:parseInt(document.getElementById("erwachsene").value)||2,children:kinder,children_ages:ages.join(", "),message:document.getElementById("nachricht").value.trim(),room_type:"",language:"IT",utm_source:utm.utm_source||"",utm_medium:utm.utm_medium||"",utm_campaign:utm.utm_campaign||"",utm_term:utm.utm_term||"",utm_content:utm.utm_content||"",device:utm.device||"",gclid:utm.gclid||"",gad_source:utm.gad_source||"",gad_campaignid:utm.gad_campaignid||""};
+    fetch(API_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data&&data.success){
+        window.dataLayer=window.dataLayer||[];
+        window.dataLayer.push({event:"form_lead_success",form_data:{guests:payload.adults,lead_id:data.id,device:payload.device}});
+        document.getElementById("successMsg").style.display="block";
+        btn.style.display="none";
+        try{localStorage.removeItem(UTM_KEY);}catch(e){}
+      } else {
+        alert("Errore durante l'invio. Si prega di riprovare.");
+        btn.innerText="Invia richiesta senza impegno"; btn.disabled=false;
+      }
+    })
+    .catch(function(){
+      alert("Errore di rete. Si prega di riprovare.");
+      btn.innerText="Invia richiesta senza impegno"; btn.disabled=false;
+    });
+  });
+});
+</script>
+
+</body>
+</html>
